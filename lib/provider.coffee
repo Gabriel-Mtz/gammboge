@@ -8,14 +8,16 @@ tagPattern = /<([a-zA-Z][-a-zA-Z]*)(?:\s|$)/
 module.exports =
   selector: '*'
   disableForSelector: '.text.html .comment'
-  filterSuggestions: true
+  #filterSuggestions: true
 
   getSuggestions: (request) ->
-    console.log "determinando gam_HTMLsuggestion"
+    #console.log "determinando gam_HTMLsuggestion"
     {prefix} = request
     console.log "El gam_prefijo era, #{prefix}!"
-    #[text: 'Pikachu', text: 'Charmander', text: 'Squirtle', text: 'Bulbasaur', text: 'Bulky']
-    @getAttributeNameCompletions(request)
+    @getAttributeNameCompletions(request, prefix)
+#[text: 'Pikachu', text: 'Charmander', text: 'Squirtle', text: 'Bulbasaur', text: 'Bulky']
+      #console.log attribute
+      #console.log tag
 
   onDidInsertSuggestion: ({editor, suggestion}) ->
     setTimeout(@triggerAutocomplete.bind(this, editor), 1) if suggestion.type is 'attribute'
@@ -23,21 +25,36 @@ module.exports =
   triggerAutocomplete: (editor) ->
     atom.commands.dispatch(atom.views.getView(editor), 'autocomplete-plus:activate', activatedManually: false)
 
+  sort_by: (field, reverse, primer) ->
+    key = if primer then ((x) ->
+      primer x[field]
+    ) else ((x) ->
+      x[field]
+    )
+    reverse = if !reverse then 1 else -1
+    (a, b) ->
+      a = key(a)
+      b = key(b)
+      reverse * ((a > b) - (b > a))
+
   getAttributeNameCompletions: ({editor, bufferPosition}, prefix) ->
     completions = []
-    completions.push(@buildAttributeCompletion('Pikachu'))
-    completions.push(@buildAttributeCompletion('Bulbasaur'))
-    completions.push(@buildAttributeCompletion('Ivysaur'))
-    completions.push(@buildAttributeCompletion('Venusaur'))
-    completions.push(@buildAttributeCompletion('Squirtle'))
-    completions.push(@buildAttributeCompletion('Wartortle'))
-    completions.push(@buildAttributeCompletion('Blastoise'))
-    completions.push(@buildAttributeCompletion('Charmander'))
-    completions.push(@buildAttributeCompletion('Charmeleon'))
-    completions.push(@buildAttributeCompletion('Charizard'))
+
+    #console.log "iniciales"
+    for index, attribute of @completions.starters when not prefix or firstCharsEqual(attribute, prefix)
+      completions.push(@buildAttributeCompletion(attribute))
+
+    #console.log "legendarios"
+    for index, attribute of @completions.legendaries when not prefix or firstCharsEqual(attribute, prefix)
+      completions.push(@buildAttributeCompletion(attribute))
+
+    completions.sort(@sort_by('snippet', false, (a) -> a.toUpperCase()));
 
     console.log "la cosa quedo asi"
-    console.log completions.toString()
+    tmp_logger =""
+    for i in completions
+      tmp_logger = tmp_logger + i.snippet + ", "
+    console.log tmp_logger
 
     completions
 
@@ -48,7 +65,7 @@ module.exports =
       type: 'attribute'
       rightLabel: "<#{tag}>"
       description: "#{attribute} attribute local to <#{tag}> tags"
-      descriptionMoreURL: @getLocalAttributeDocsURL(attribute, tag)
+      #descriptionMoreURL: @getLocalAttributeDocsURL(attribute, tag)
     else
       snippet: "#{attribute} "
       displayText: attribute
