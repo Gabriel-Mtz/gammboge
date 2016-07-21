@@ -4,7 +4,7 @@ path = require 'path'
 #trailingWhitespace = /\s$/
 attributePattern = /\s+([a-zA-Z][-a-zA-Z]*)\s*=\s*$/
 tagPattern = /<([a-zA-Z][-a-zA-Z]*)(?:\s|$)/
-maxOrder = 5
+maxOrder = 8
 
 module.exports =
   selector: '*'
@@ -42,7 +42,7 @@ module.exports =
 
   getPrefix: (editor, bufferPosition) ->
     # Whatever your prefix regex might be
-    regex = /(\b\w+\b\s?){0,4}$/
+    regex = /(\b\w+\b\s?){0,7}$/
     # Get the text for the line up to the triggered buffer position
     line = editor.getTextInRange([[bufferPosition.row, 0], bufferPosition])
     #Or just return the whole line because why not
@@ -184,7 +184,7 @@ sortProperties = (obj, property,isNumericSort, ascending) ->
   sortable
 
 liveGuess= (sentence)->
-  maxGuesses = 3
+  maxGuesses = 5
   candidates = {}
   console.log "given: "+sentence
   #console.log (sentence.startsWith("<s>"))

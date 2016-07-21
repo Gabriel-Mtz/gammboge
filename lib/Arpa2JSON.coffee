@@ -11,7 +11,7 @@ myOwnStaticDict = '/Users/gabomartinez/Google Drive/ITESM/8vo-9no Verano Canada/
 myGenStaticDict = '/Users/gabomartinez/Google Drive/ITESM/8vo-9no Verano Canada/ARPA_Parser/LMObject.json'
 
 parseArpa= ->
-  content = fs.readFileSync path.resolve(myStaticModel)
+  content = fs.readFileSync path.resolve(__dirname, 'myModel.txt')
   content = content.toString()
   #console.log("Synchronous read: \n" + content)
   """gram_lines"""
@@ -45,13 +45,13 @@ parseArpa= ->
   replacement = "$1:0}"
   content = content.replace( regexp, replacement)
   #console.log("Alteration: \n" + content)
-  fs.writeFile(myGenStaticDict, content)
+  fs.writeFile(path.resolve(__dirname, 'LMObject.json'), content)
   return
     #result = intermedio.replace("^(ngram [0-9]+)=([0-9]+)$", "\t,\"$1\":$2")
 
 loadLM= ->
   @dictionary = {}
-  content = fs.readFileSync path.resolve(myGenStaticDict)
+  content = fs.readFileSync path.resolve(__dirname, 'LMObject.json')
   @dictionary = JSON.parse(content) unless error?
   return
 
@@ -108,13 +108,12 @@ liveGuess= (sentence)->
     console.log candidates
     return candidates
 
-#parseArpa()
-#"""
+parseArpa()
+"""
 console.log "arranca"
 loadLM()
 
-liveGuess("<s> She read")
-liveGuess("read a different")
+console.log "cargado"
 liveGuess("You read a")
 
 #gram = 'ngram 1'
