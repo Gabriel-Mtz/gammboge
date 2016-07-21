@@ -1,0 +1,356 @@
+
+{
+
+"data":{
+	"ngram 1":45
+	,"ngram 2":72
+	,"ngram 3":72
+	,"ngram 4":70
+	,"ngram 5":65
+
+},
+
+"1-grams":{
+	"</s>": {"P":-0.723065, "BP":0}
+	,"<s>": {"P":-99, "BP":-0.681241}
+	,"Bob": {"P":-1.811155, "BP":-0.037789}
+	,"Cher": {"P":-1.811155, "BP":-0.037789}
+	,"Dick": {"P":-1.811155, "BP":-0.037789}
+	,"I": {"P":-1.809970, "BP":-0.037789}
+	,"JP": {"P":-1.811155, "BP":-0.037789}
+	,"John": {"P":-1.809970, "BP":-0.037789}
+	,"Kristin": {"P":-1.811155, "BP":-0.037789}
+	,"Mary": {"P":-1.811155, "BP":-0.037789}
+	,"Moby": {"P":-1.811155, "BP":-0.037789}
+	,"She": {"P":-1.811155, "BP":-0.037789}
+	,"a": {"P":-1.811155, "BP":-0.037789}
+	,"and": {"P":-1.811155, "BP":-0.037789}
+	,"because": {"P":-1.811155, "BP":-0.037789}
+	,"before": {"P":-1.811155, "BP":-0.037789}
+	,"book": {"P":-1.809970, "BP":-0.037789}
+	,"books": {"P":-1.809970, "BP":-0.037789}
+	,"bored": {"P":-1.811155, "BP":-0.037789}
+	,"boring": {"P":-1.811155, "BP":-0.037789}
+	,"by": {"P":-1.192425, "BP":-0.137173}
+	,"different": {"P":-1.811155, "BP":-0.037789}
+	,"good": {"P":-1.811155, "BP":-0.037789}
+	,"had": {"P":-1.811155, "BP":-0.037789}
+	,"interesting": {"P":-1.811155, "BP":-0.037789}
+	,"it": {"P":-1.811155, "BP":-0.037789}
+	,"magazine": {"P":-1.811155, "BP":-0.037789}
+	,"me": {"P":-1.811155, "BP":-0.037789}
+	,"more": {"P":-1.811155, "BP":-0.037789}
+	,"of": {"P":-1.811155, "BP":-0.037789}
+	,"on": {"P":-1.811155, "BP":-0.037789}
+	,"one": {"P":-1.809970, "BP":-0.037789}
+	,"plane": {"P":-1.811155, "BP":-0.037789}
+	,"read": {"P":-1.107378, "BP":-0.405765}
+	,"really": {"P":-1.809970, "BP":-0.037789}
+	,"sort": {"P":-1.811155, "BP":-0.037789}
+	,"that": {"P":-1.811155, "BP":-0.037789}
+	,"the": {"P":-1.809970, "BP":-0.037789}
+	,"three": {"P":-1.811155, "BP":-0.037789}
+	,"tome": {"P":-1.811155, "BP":-0.037789}
+	,"two": {"P":-1.811155, "BP":-0.037789}
+	,"was": {"P":-1.298285, "BP":-0.037789}
+	,"way": {"P":-1.811155, "BP":-0.037789}
+	,"who": {"P":-1.811155, "BP":-0.037789}
+	,"written": {"P":-1.811155, "BP":-0.037789}
+
+},
+
+"2-grams":{
+	"<s> Bob": {"P":-2.037606, "BP":-0.049688}
+	,"<s> I": {"P":-0.662516, "BP":0}
+	,"<s> John": {"P":-2.037190, "BP":-0.049688}
+	,"<s> Mary": {"P":-1.163079, "BP":-0.176825}
+	,"<s> She": {"P":-0.298244, "BP":-0.367977}
+	,"Bob read": {"P":-0.809892, "BP":-0.049688}
+	,"Cher </s>": {"P":-0.590452, "BP":0}
+	,"Dick </s>": {"P":-0.590452, "BP":0}
+	,"I read": {"P":-0.945948, "BP":-0.049688}
+	,"I was": {"P":-1.056552, "BP":-0.049688}
+	,"JP </s>": {"P":-0.590452, "BP":0}
+	,"John </s>": {"P":-0.667349, "BP":0}
+	,"John read": {"P":-0.945948, "BP":-0.049688}
+	,"Kristin and": {"P":-1.253160, "BP":-0.049688}
+	,"Kristin who": {"P":-1.253160, "BP":-0.049688}
+	,"Mary read": {"P":-0.809892, "BP":-0.049688}
+	,"Moby Dick": {"P":-1.011026, "BP":-0.049688}
+	,"She read": {"P":-0.809892, "BP":-0.049688}
+	,"a book": {"P":-1.455538, "BP":-0.049688}
+	,"a different": {"P":-1.456018, "BP":-0.049688}
+	,"a magazine": {"P":-1.456018, "BP":-0.049688}
+	,"a tome": {"P":-1.456018, "BP":-0.049688}
+	,"and it": {"P":-1.011026, "BP":-0.049688}
+	,"because I": {"P":-1.010854, "BP":-0.049688}
+	,"before by": {"P":-0.847135, "BP":-0.049688}
+	,"book </s>": {"P":-0.667349, "BP":0}
+	,"book by": {"P":-0.997739, "BP":-0.049688}
+	,"books </s>": {"P":-0.667349, "BP":0}
+	,"books by": {"P":-0.997739, "BP":-0.049688}
+	,"bored </s>": {"P":-0.590452, "BP":0}
+	,"boring </s>": {"P":-0.590452, "BP":0}
+	,"by Cher": {"P":-1.663938, "BP":-0.049688}
+	,"by JP": {"P":-1.663938, "BP":-0.049688}
+	,"by John": {"P":-1.663322, "BP":-0.049688}
+	,"by Kristin": {"P":-0.900158, "BP":-0.049688}
+	,"by me": {"P":-0.900158, "BP":-0.176825}
+	,"by the": {"P":-1.663322, "BP":-0.049688}
+	,"different book": {"P":-1.252859, "BP":-0.049688}
+	,"different one": {"P":-1.252859, "BP":-0.049688}
+	,"good </s>": {"P":-0.590452, "BP":0}
+	,"had written": {"P":-1.011026, "BP":-0.049688}
+	,"interesting </s>": {"P":-0.590452, "BP":0}
+	,"it was": {"P":-0.887874, "BP":-0.049688}
+	,"magazine by": {"P":-0.997739, "BP":-0.049688}
+	,"magazine on": {"P":-1.253160, "BP":-0.049688}
+	,"me </s>": {"P":-0.590452, "BP":0}
+	,"more interesting": {"P":-1.011026, "BP":-0.049688}
+	,"of boring": {"P":-1.011026, "BP":-0.049688}
+	,"on the": {"P":-1.010854, "BP":-0.049688}
+	,"one before": {"P":-1.253160, "BP":-0.049688}
+	,"one that": {"P":-1.253160, "BP":-0.049688}
+	,"plane because": {"P":-1.011026, "BP":-0.049688}
+	,"read Moby": {"P":-1.745374, "BP":-0.049688}
+	,"read a": {"P":-0.238450, "BP":-0.130187}
+	,"read three": {"P":-1.745374, "BP":-0.049688}
+	,"read two": {"P":-1.745374, "BP":-0.049688}
+	,"really good": {"P":-1.253160, "BP":-0.049688}
+	,"really really": {"P":-1.252859, "BP":-0.049688}
+	,"sort of": {"P":-1.011026, "BP":-0.049688}
+	,"that was": {"P":-0.887874, "BP":-0.049688}
+	,"the plane": {"P":-1.253160, "BP":-0.049688}
+	,"the way": {"P":-1.253160, "BP":-0.049688}
+	,"three books": {"P":-1.010854, "BP":-0.049688}
+	,"tome </s>": {"P":-0.590452, "BP":0}
+	,"two books": {"P":-1.010854, "BP":-0.049688}
+	,"was bored": {"P":-1.456018, "BP":-0.049688}
+	,"was more": {"P":-1.456018, "BP":-0.049688}
+	,"was really": {"P":-1.455538, "BP":-0.049688}
+	,"was sort": {"P":-1.456018, "BP":-0.049688}
+	,"way </s>": {"P":-0.590452, "BP":0}
+	,"who had": {"P":-1.011026, "BP":-0.049688}
+	,"written one": {"P":-1.010854, "BP":-0.049688}
+
+},
+
+"3-grams":{
+	"<s> Bob read": {"P":-0.608571, "BP":-0.051153}
+	,"<s> I read": {"P":-0.945948, "BP":-99}
+	,"<s> John read": {"P":-0.679609, "BP":-0.051153}
+	,"<s> Mary read": {"P":-0.358957, "BP":-0.176091}
+	,"<s> She read": {"P":-0.195300, "BP":-0.498311}
+	,"Bob read a": {"P":-0.205391, "BP":-0.051153}
+	,"I read a": {"P":-0.205391, "BP":-0.051153}
+	,"I was bored": {"P":-0.855992, "BP":-0.051153}
+	,"John read Moby": {"P":-0.906094, "BP":-0.051153}
+	,"Kristin and it": {"P":-0.709829, "BP":-0.051153}
+	,"Kristin who had": {"P":-0.709829, "BP":-0.051153}
+	,"Mary read a": {"P":-0.205391, "BP":-0.051153}
+	,"Moby Dick </s>": {"P":-0.472214, "BP":0}
+	,"She read a": {"P":-0.258769, "BP":-0.051153}
+	,"She read three": {"P":-1.283444, "BP":-0.051153}
+	,"She read two": {"P":-1.283444, "BP":-0.051153}
+	,"a book by": {"P":-0.703855, "BP":-0.051153}
+	,"a different book": {"P":-0.983469, "BP":-0.051153}
+	,"a different one": {"P":-0.983469, "BP":-0.051153}
+	,"a magazine by": {"P":-0.842516, "BP":-0.051153}
+	,"a magazine on": {"P":-0.983614, "BP":-0.051153}
+	,"a tome </s>": {"P":-0.472214, "BP":0}
+	,"and it was": {"P":-0.650587, "BP":-0.051153}
+	,"because I was": {"P":-0.729536, "BP":-0.051153}
+	,"before by the": {"P":-0.894586, "BP":-0.051153}
+	,"book by JP": {"P":-1.333825, "BP":-0.051153}
+	,"book by John": {"P":-1.333568, "BP":-0.051153}
+	,"book by Kristin": {"P":-0.856146, "BP":-0.051153}
+	,"book by me": {"P":-0.856146, "BP":-0.051153}
+	,"books by Cher": {"P":-1.134361, "BP":-0.051153}
+	,"books by me": {"P":-0.779119, "BP":-0.051153}
+	,"by Cher </s>": {"P":-0.472214, "BP":0}
+	,"by JP </s>": {"P":-0.472214, "BP":0}
+	,"by John </s>": {"P":-0.522938, "BP":0}
+	,"by Kristin and": {"P":-0.983614, "BP":-0.051153}
+	,"by Kristin who": {"P":-0.983614, "BP":-0.051153}
+	,"by me </s>": {"P":-0.296406, "BP":0}
+	,"by the way": {"P":-0.801620, "BP":-0.051153}
+	,"different book </s>": {"P":-0.522938, "BP":0}
+	,"different one that": {"P":-0.801620, "BP":-0.051153}
+	,"had written one": {"P":-0.709752, "BP":-0.051153}
+	,"it was really": {"P":-0.855885, "BP":-0.051153}
+	,"magazine by Kristin": {"P":-0.656887, "BP":-0.051153}
+	,"magazine on the": {"P":-0.709752, "BP":-0.051153}
+	,"more interesting </s>": {"P":-0.472214, "BP":0}
+	,"of boring </s>": {"P":-0.472214, "BP":0}
+	,"on the plane": {"P":-0.801620, "BP":-0.051153}
+	,"one before by": {"P":-0.629071, "BP":-0.051153}
+	,"one that was": {"P":-0.650587, "BP":-0.051153}
+	,"plane because I": {"P":-0.709752, "BP":-0.051153}
+	,"read Moby Dick": {"P":-0.709829, "BP":-0.051153}
+	,"read a book": {"P":-0.861872, "BP":-0.176091}
+	,"read a different": {"P":-0.861963, "BP":-0.130334}
+	,"read a magazine": {"P":-1.357065, "BP":-0.051153}
+	,"read a tome": {"P":-1.357065, "BP":-0.051153}
+	,"read three books": {"P":-0.709752, "BP":-0.051153}
+	,"read two books": {"P":-0.709752, "BP":-0.051153}
+	,"really good </s>": {"P":-0.472214, "BP":0}
+	,"really really good": {"P":-0.801620, "BP":-0.051153}
+	,"sort of boring": {"P":-0.709829, "BP":-0.051153}
+	,"that was more": {"P":-1.069234, "BP":-0.051153}
+	,"that was sort": {"P":-1.069234, "BP":-0.051153}
+	,"the plane because": {"P":-0.709829, "BP":-0.051153}
+	,"the way </s>": {"P":-0.472214, "BP":0}
+	,"three books </s>": {"P":-0.522938, "BP":0}
+	,"two books by": {"P":-0.703855, "BP":-0.051153}
+	,"was bored </s>": {"P":-0.472214, "BP":0}
+	,"was more interesting": {"P":-0.709829, "BP":-0.051153}
+	,"was really really": {"P":-0.801525, "BP":-0.051153}
+	,"was sort of": {"P":-0.709829, "BP":-0.051153}
+	,"who had written": {"P":-0.709829, "BP":-0.051153}
+	,"written one before": {"P":-0.801620, "BP":-0.051153}
+
+},
+
+"4-grams":{
+	"<s> Bob read a": {"P":-0.177150, "BP":-0.082974}
+	,"<s> I read a": {"P":0.000000, "BP":-0.176091}
+	,"<s> John read Moby": {"P":-0.654712, "BP":-0.082974}
+	,"<s> Mary read a": {"P":-0.125645, "BP":-0.231394}
+	,"<s> She read a": {"P":-0.127039, "BP":-0.019305}
+	,"<s> She read three": {"P":-1.489429, "BP":-0.082974}
+	,"<s> She read two": {"P":-0.951686, "BP":-0.231394}
+	,"Bob read a different": {"P":-0.632162, "BP":-0.082974}
+	,"I read a book": {"P":-0.750243, "BP":-0.082974}
+	,"I read a magazine": {"P":-1.024017, "BP":-0.082974}
+	,"I was bored </s>": {"P":-0.386397, "BP":0}
+	,"John read Moby Dick": {"P":-0.545919, "BP":-0.082974}
+	,"Kristin and it was": {"P":-0.508863, "BP":-0.082974}
+	,"Kristin who had written": {"P":-0.545919, "BP":-0.082974}
+	,"Mary read a different": {"P":-0.632162, "BP":-0.082974}
+	,"She read a book": {"P":-0.750243, "BP":0}
+	,"She read a tome": {"P":-1.024017, "BP":-0.082974}
+	,"She read three books": {"P":-0.545872, "BP":-0.082974}
+	,"She read two books": {"P":-0.545872, "BP":-0.231394}
+	,"a book by JP": {"P":-1.161216, "BP":-0.082974}
+	,"a book by John": {"P":-1.161062, "BP":-0.082974}
+	,"a book by Kristin": {"P":-0.819380, "BP":-0.082974}
+	,"a book by me": {"P":-0.819380, "BP":-0.082974}
+	,"a different book </s>": {"P":-0.422806, "BP":0}
+	,"a different one that": {"P":-0.599521, "BP":-0.231394}
+	,"a magazine by Kristin": {"P":-0.512893, "BP":-0.082974}
+	,"a magazine on the": {"P":-0.545872, "BP":-0.082974}
+	,"and it was really": {"P":-0.628969, "BP":-0.082974}
+	,"because I was bored": {"P":-0.629025, "BP":-0.082974}
+	,"before by the way": {"P":-0.599521, "BP":-0.082974}
+	,"book by JP </s>": {"P":-0.386397, "BP":0}
+	,"book by John </s>": {"P":-0.422806, "BP":0}
+	,"book by Kristin who": {"P":-0.691611, "BP":-0.082974}
+	,"book by me </s>": {"P":-0.251570, "BP":0}
+	,"books by Cher </s>": {"P":-0.386397, "BP":0}
+	,"books by me </s>": {"P":-0.251570, "BP":0}
+	,"by Kristin and it": {"P":-0.545919, "BP":-0.082974}
+	,"by Kristin who had": {"P":-0.545919, "BP":-0.082974}
+	,"by the way </s>": {"P":-0.386397, "BP":0}
+	,"different one that was": {"P":-0.508863, "BP":-0.082974}
+	,"had written one before": {"P":-0.599521, "BP":-0.082974}
+	,"it was really really": {"P":-0.599468, "BP":-0.082974}
+	,"magazine by Kristin and": {"P":-0.691611, "BP":-0.082974}
+	,"magazine on the plane": {"P":-0.599521, "BP":-0.082974}
+	,"on the plane because": {"P":-0.545919, "BP":-0.082974}
+	,"one before by the": {"P":-0.648939, "BP":-0.082974}
+	,"one that was more": {"P":-0.881584, "BP":-0.082974}
+	,"one that was sort": {"P":-0.881584, "BP":-0.082974}
+	,"plane because I was": {"P":-0.557823, "BP":-0.082974}
+	,"read Moby Dick </s>": {"P":-0.386397, "BP":0}
+	,"read a book by": {"P":-0.332383, "BP":-0.082974}
+	,"read a different book": {"P":-0.943152, "BP":-0.082974}
+	,"read a different one": {"P":-0.524082, "BP":-0.231394}
+	,"read a magazine by": {"P":-0.736845, "BP":-0.082974}
+	,"read a magazine on": {"P":-0.830142, "BP":-0.082974}
+	,"read a tome </s>": {"P":-0.386397, "BP":0}
+	,"read three books </s>": {"P":-0.422806, "BP":0}
+	,"read two books by": {"P":-0.542269, "BP":-0.082974}
+	,"really really good </s>": {"P":-0.386397, "BP":0}
+	,"sort of boring </s>": {"P":-0.386397, "BP":0}
+	,"that was more interesting": {"P":-0.545919, "BP":-0.082974}
+	,"that was sort of": {"P":-0.545919, "BP":-0.082974}
+	,"the plane because I": {"P":-0.545872, "BP":-0.082974}
+	,"two books by Cher": {"P":-0.917964, "BP":-0.082974}
+	,"two books by me": {"P":-0.691705, "BP":-0.082974}
+	,"was more interesting </s>": {"P":-0.386397, "BP":0}
+	,"was really really good": {"P":-0.599521, "BP":-0.082974}
+	,"was sort of boring": {"P":-0.545919, "BP":-0.082974}
+	,"who had written one": {"P":-0.545872, "BP":-0.082974}
+	,"written one before by": {"P":-0.494940, "BP":-0.082974}
+
+},
+
+"5-grams":{
+	"<s> Bob read a different": {"P":-0.435802, "BP":0}
+	,"<s> I read a book": {"P":-0.753362, "BP":0}
+	,"<s> I read a magazine": {"P":-0.470515, "BP":0}
+	,"<s> John read Moby Dick": {"P":-0.388347, "BP":0}
+	,"<s> Mary read a different": {"P":-0.259672, "BP":0}
+	,"<s> She read a book": {"P":-0.769548, "BP":0}
+	,"<s> She read a tome": {"P":-0.872946, "BP":0}
+	,"<s> She read three books": {"P":-0.388320, "BP":0}
+	,"<s> She read two books": {"P":-0.236535, "BP":0}
+	,"Bob read a different one": {"P":-0.375663, "BP":0}
+	,"I read a book by": {"P":-0.253219, "BP":0}
+	,"I read a magazine by": {"P":-0.622738, "BP":0}
+	,"I read a magazine on": {"P":-0.679638, "BP":0}
+	,"John read Moby Dick </s>": {"P":-0.289672, "BP":0}
+	,"Kristin and it was really": {"P":-0.434120, "BP":0}
+	,"Kristin who had written one": {"P":-0.388320, "BP":0}
+	,"Mary read a different book": {"P":-0.742038, "BP":0}
+	,"Mary read a different one": {"P":-0.476127, "BP":0}
+	,"She read a book by": {"P":-0.332383, "BP":0}
+	,"She read a tome </s>": {"P":-0.289672, "BP":0}
+	,"She read three books </s>": {"P":-0.313399, "BP":0}
+	,"She read two books by": {"P":-0.235494, "BP":0}
+	,"a book by JP </s>": {"P":-0.289672, "BP":0}
+	,"a book by John </s>": {"P":-0.313399, "BP":0}
+	,"a book by Kristin who": {"P":-0.466032, "BP":0}
+	,"a book by me </s>": {"P":-0.196011, "BP":0}
+	,"a different one that was": {"P":-0.225552, "BP":0}
+	,"a magazine by Kristin and": {"P":-0.466032, "BP":0}
+	,"a magazine on the plane": {"P":-0.418339, "BP":0}
+	,"and it was really really": {"P":-0.418311, "BP":0}
+	,"because I was bored </s>": {"P":-0.289672, "BP":0}
+	,"before by the way </s>": {"P":-0.289672, "BP":0}
+	,"book by Kristin who had": {"P":-0.388347, "BP":0}
+	,"by Kristin and it was": {"P":-0.366665, "BP":0}
+	,"by Kristin who had written": {"P":-0.388347, "BP":0}
+	,"different one that was more": {"P":-0.708943, "BP":0}
+	,"different one that was sort": {"P":-0.708943, "BP":0}
+	,"had written one before by": {"P":-0.358322, "BP":0}
+	,"it was really really good": {"P":-0.418339, "BP":0}
+	,"magazine by Kristin and it": {"P":-0.388347, "BP":0}
+	,"magazine on the plane because": {"P":-0.388347, "BP":0}
+	,"on the plane because I": {"P":-0.388320, "BP":0}
+	,"one before by the way": {"P":-0.418339, "BP":0}
+	,"one that was more interesting": {"P":-0.388347, "BP":0}
+	,"one that was sort of": {"P":-0.388347, "BP":0}
+	,"plane because I was bored": {"P":-0.434150, "BP":0}
+	,"read a book by JP": {"P":-0.997965, "BP":0}
+	,"read a book by John": {"P":-0.997878, "BP":0}
+	,"read a book by Kristin": {"P":-0.772910, "BP":0}
+	,"read a book by me": {"P":-0.772910, "BP":0}
+	,"read a different book </s>": {"P":-0.313399, "BP":0}
+	,"read a different one that": {"P":-0.251314, "BP":0}
+	,"read a magazine by Kristin": {"P":-0.369061, "BP":0}
+	,"read a magazine on the": {"P":-0.388320, "BP":0}
+	,"read two books by Cher": {"P":-0.728761, "BP":0}
+	,"read two books by me": {"P":-0.593526, "BP":0}
+	,"that was more interesting </s>": {"P":-0.289672, "BP":0}
+	,"that was sort of boring": {"P":-0.388347, "BP":0}
+	,"the plane because I was": {"P":-0.395148, "BP":0}
+	,"two books by Cher </s>": {"P":-0.289672, "BP":0}
+	,"two books by me </s>": {"P":-0.196011, "BP":0}
+	,"was really really good </s>": {"P":-0.289672, "BP":0}
+	,"was sort of boring </s>": {"P":-0.289672, "BP":0}
+	,"who had written one before": {"P":-0.418339, "BP":0}
+	,"written one before by the": {"P":-0.444539, "BP":0}
+}
+
+}

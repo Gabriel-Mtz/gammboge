@@ -1,0 +1,323 @@
+<s>	14
+Bob	1
+Cher	1
+Dick	1
+I	4
+JP	1
+John	2
+Kristin	2
+Mary	2
+Moby	1
+She	7
+a	10
+and	1
+because	1
+before	1
+book	5
+books	3
+bored	1
+boring	1
+by	8
+different	3
+good	1
+had	1
+interesting	1
+it	1
+magazine	2
+me	2
+more	1
+of	1
+on	1
+one	3
+plane	1
+read	14
+really	2
+sort	1
+that	2
+the	2
+three	1
+tome	1
+two	2
+was	4
+way	1
+who	1
+written	1
+<s> Bob	1
+<s> I	3
+<s> John	1
+<s> Mary	2
+<s> She	7
+Bob read	1
+Cher </s>	1
+Dick </s>	1
+I read	3
+I was	1
+JP </s>	1
+John </s>	1
+John read	1
+Kristin and	1
+Kristin who	1
+Mary read	2
+Moby Dick	1
+She read	7
+a book	4
+a different	3
+a magazine	2
+a tome	1
+and it	1
+because I	1
+before by	1
+book </s>	1
+book by	4
+books </s>	1
+books by	2
+bored </s>	1
+boring </s>	1
+by Cher	1
+by JP	1
+by John	1
+by Kristin	2
+by me	2
+by the	1
+different book	1
+different one	2
+good </s>	1
+had written	1
+interesting </s>	1
+it was	1
+magazine by	1
+magazine on	1
+me </s>	2
+more interesting	1
+of boring	1
+on the	1
+one before	1
+one that	2
+plane because	1
+read Moby	1
+read a	10
+read three	1
+read two	2
+really good	1
+really really	1
+sort of	1
+that was	2
+the plane	1
+the way	1
+three books	1
+tome </s>	1
+two books	2
+was bored	1
+was more	1
+was really	1
+was sort	1
+way </s>	1
+who had	1
+written one	1
+<s> Bob read	1
+<s> I read	3
+<s> John read	1
+<s> Mary read	2
+<s> She read	7
+Bob read a	1
+I read a	3
+I was bored	1
+John read Moby	1
+Kristin and it	1
+Kristin who had	1
+Mary read a	2
+Moby Dick </s>	1
+She read a	4
+She read three	1
+She read two	2
+a book by	4
+a different book	1
+a different one	2
+a magazine by	1
+a magazine on	1
+a tome </s>	1
+and it was	1
+because I was	1
+before by the	1
+book by JP	1
+book by John	1
+book by Kristin	1
+book by me	1
+books by Cher	1
+books by me	1
+by Cher </s>	1
+by JP </s>	1
+by John </s>	1
+by Kristin and	1
+by Kristin who	1
+by me </s>	2
+by the way	1
+different book </s>	1
+different one that	2
+had written one	1
+it was really	1
+magazine by Kristin	1
+magazine on the	1
+more interesting </s>	1
+of boring </s>	1
+on the plane	1
+one before by	1
+one that was	2
+plane because I	1
+read Moby Dick	1
+read a book	4
+read a different	3
+read a magazine	2
+read a tome	1
+read three books	1
+read two books	2
+really good </s>	1
+really really good	1
+sort of boring	1
+that was more	1
+that was sort	1
+the plane because	1
+the way </s>	1
+three books </s>	1
+two books by	2
+was bored </s>	1
+was more interesting	1
+was really really	1
+was sort of	1
+who had written	1
+written one before	1
+<s> Bob read a	1
+<s> I read a	3
+<s> John read Moby	1
+<s> Mary read a	2
+<s> She read a	4
+<s> She read three	1
+<s> She read two	2
+Bob read a different	1
+I read a book	1
+I read a magazine	2
+I was bored </s>	1
+John read Moby Dick	1
+Kristin and it was	1
+Kristin who had written	1
+Mary read a different	2
+She read a book	3
+She read a tome	1
+She read three books	1
+She read two books	2
+a book by JP	1
+a book by John	1
+a book by Kristin	1
+a book by me	1
+a different book </s>	1
+a different one that	2
+a magazine by Kristin	1
+a magazine on the	1
+and it was really	1
+because I was bored	1
+before by the way	1
+book by JP </s>	1
+book by John </s>	1
+book by Kristin who	1
+book by me </s>	1
+books by Cher </s>	1
+books by me </s>	1
+by Kristin and it	1
+by Kristin who had	1
+by the way </s>	1
+different one that was	2
+had written one before	1
+it was really really	1
+magazine by Kristin and	1
+magazine on the plane	1
+on the plane because	1
+one before by the	1
+one that was more	1
+one that was sort	1
+plane because I was	1
+read Moby Dick </s>	1
+read a book by	4
+read a different book	1
+read a different one	2
+read a magazine by	1
+read a magazine on	1
+read a tome </s>	1
+read three books </s>	1
+read two books by	2
+really really good </s>	1
+sort of boring </s>	1
+that was more interesting	1
+that was sort of	1
+the plane because I	1
+two books by Cher	1
+two books by me	1
+was more interesting </s>	1
+was really really good	1
+was sort of boring	1
+who had written one	1
+written one before by	1
+<s> Bob read a different	1
+<s> I read a book	1
+<s> I read a magazine	2
+<s> John read Moby Dick	1
+<s> Mary read a different	2
+<s> She read a book	3
+<s> She read a tome	1
+<s> She read three books	1
+<s> She read two books	2
+Bob read a different one	1
+I read a book by	1
+I read a magazine by	1
+I read a magazine on	1
+John read Moby Dick </s>	1
+Kristin and it was really	1
+Kristin who had written one	1
+Mary read a different book	1
+Mary read a different one	1
+She read a book by	3
+She read a tome </s>	1
+She read three books </s>	1
+She read two books by	2
+a book by JP </s>	1
+a book by John </s>	1
+a book by Kristin who	1
+a book by me </s>	1
+a different one that was	2
+a magazine by Kristin and	1
+a magazine on the plane	1
+and it was really really	1
+because I was bored </s>	1
+before by the way </s>	1
+book by Kristin who had	1
+by Kristin and it was	1
+by Kristin who had written	1
+different one that was more	1
+different one that was sort	1
+had written one before by	1
+it was really really good	1
+magazine by Kristin and it	1
+magazine on the plane because	1
+on the plane because I	1
+one before by the way	1
+one that was more interesting	1
+one that was sort of	1
+plane because I was bored	1
+read a book by JP	1
+read a book by John	1
+read a book by Kristin	1
+read a book by me	1
+read a different book </s>	1
+read a different one that	2
+read a magazine by Kristin	1
+read a magazine on the	1
+read two books by Cher	1
+read two books by me	1
+that was more interesting </s>	1
+that was sort of boring	1
+the plane because I was	1
+two books by Cher </s>	1
+two books by me </s>	1
+was really really good </s>	1
+was sort of boring </s>	1
+who had written one before	1
+written one before by the	1

@@ -1,0 +1,343 @@
+
+\data\
+ngram 1=45
+ngram 2=72
+ngram 3=72
+ngram 4=70
+ngram 5=65
+
+\1-grams:
+-0.723065	</s>
+-99	<s>	-0.681241
+-1.811155	Bob	-0.037789
+-1.811155	Cher	-0.037789
+-1.811155	Dick	-0.037789
+-1.809970	I	-0.037789
+-1.811155	JP	-0.037789
+-1.809970	John	-0.037789
+-1.811155	Kristin	-0.037789
+-1.811155	Mary	-0.037789
+-1.811155	Moby	-0.037789
+-1.811155	She	-0.037789
+-1.811155	a	-0.037789
+-1.811155	and	-0.037789
+-1.811155	because	-0.037789
+-1.811155	before	-0.037789
+-1.809970	book	-0.037789
+-1.809970	books	-0.037789
+-1.811155	bored	-0.037789
+-1.811155	boring	-0.037789
+-1.192425	by	-0.137173
+-1.811155	different	-0.037789
+-1.811155	good	-0.037789
+-1.811155	had	-0.037789
+-1.811155	interesting	-0.037789
+-1.811155	it	-0.037789
+-1.811155	magazine	-0.037789
+-1.811155	me	-0.037789
+-1.811155	more	-0.037789
+-1.811155	of	-0.037789
+-1.811155	on	-0.037789
+-1.809970	one	-0.037789
+-1.811155	plane	-0.037789
+-1.107378	read	-0.405765
+-1.809970	really	-0.037789
+-1.811155	sort	-0.037789
+-1.811155	that	-0.037789
+-1.809970	the	-0.037789
+-1.811155	three	-0.037789
+-1.811155	tome	-0.037789
+-1.811155	two	-0.037789
+-1.298285	was	-0.037789
+-1.811155	way	-0.037789
+-1.811155	who	-0.037789
+-1.811155	written	-0.037789
+
+\2-grams:
+-2.037606	<s> Bob	-0.049688
+-0.662516	<s> I
+-2.037190	<s> John	-0.049688
+-1.163079	<s> Mary	-0.176825
+-0.298244	<s> She	-0.367977
+-0.809892	Bob read	-0.049688
+-0.590452	Cher </s>
+-0.590452	Dick </s>
+-0.945948	I read	-0.049688
+-1.056552	I was	-0.049688
+-0.590452	JP </s>
+-0.667349	John </s>
+-0.945948	John read	-0.049688
+-1.253160	Kristin and	-0.049688
+-1.253160	Kristin who	-0.049688
+-0.809892	Mary read	-0.049688
+-1.011026	Moby Dick	-0.049688
+-0.809892	She read	-0.049688
+-1.455538	a book	-0.049688
+-1.456018	a different	-0.049688
+-1.456018	a magazine	-0.049688
+-1.456018	a tome	-0.049688
+-1.011026	and it	-0.049688
+-1.010854	because I	-0.049688
+-0.847135	before by	-0.049688
+-0.667349	book </s>
+-0.997739	book by	-0.049688
+-0.667349	books </s>
+-0.997739	books by	-0.049688
+-0.590452	bored </s>
+-0.590452	boring </s>
+-1.663938	by Cher	-0.049688
+-1.663938	by JP	-0.049688
+-1.663322	by John	-0.049688
+-0.900158	by Kristin	-0.049688
+-0.900158	by me	-0.176825
+-1.663322	by the	-0.049688
+-1.252859	different book	-0.049688
+-1.252859	different one	-0.049688
+-0.590452	good </s>
+-1.011026	had written	-0.049688
+-0.590452	interesting </s>
+-0.887874	it was	-0.049688
+-0.997739	magazine by	-0.049688
+-1.253160	magazine on	-0.049688
+-0.590452	me </s>
+-1.011026	more interesting	-0.049688
+-1.011026	of boring	-0.049688
+-1.010854	on the	-0.049688
+-1.253160	one before	-0.049688
+-1.253160	one that	-0.049688
+-1.011026	plane because	-0.049688
+-1.745374	read Moby	-0.049688
+-0.238450	read a	-0.130187
+-1.745374	read three	-0.049688
+-1.745374	read two	-0.049688
+-1.253160	really good	-0.049688
+-1.252859	really really	-0.049688
+-1.011026	sort of	-0.049688
+-0.887874	that was	-0.049688
+-1.253160	the plane	-0.049688
+-1.253160	the way	-0.049688
+-1.010854	three books	-0.049688
+-0.590452	tome </s>
+-1.010854	two books	-0.049688
+-1.456018	was bored	-0.049688
+-1.456018	was more	-0.049688
+-1.455538	was really	-0.049688
+-1.456018	was sort	-0.049688
+-0.590452	way </s>
+-1.011026	who had	-0.049688
+-1.010854	written one	-0.049688
+
+\3-grams:
+-0.608571	<s> Bob read	-0.051153
+-0.945948	<s> I read	-99
+-0.679609	<s> John read	-0.051153
+-0.358957	<s> Mary read	-0.176091
+-0.195300	<s> She read	-0.498311
+-0.205391	Bob read a	-0.051153
+-0.205391	I read a	-0.051153
+-0.855992	I was bored	-0.051153
+-0.906094	John read Moby	-0.051153
+-0.709829	Kristin and it	-0.051153
+-0.709829	Kristin who had	-0.051153
+-0.205391	Mary read a	-0.051153
+-0.472214	Moby Dick </s>
+-0.258769	She read a	-0.051153
+-1.283444	She read three	-0.051153
+-1.283444	She read two	-0.051153
+-0.703855	a book by	-0.051153
+-0.983469	a different book	-0.051153
+-0.983469	a different one	-0.051153
+-0.842516	a magazine by	-0.051153
+-0.983614	a magazine on	-0.051153
+-0.472214	a tome </s>
+-0.650587	and it was	-0.051153
+-0.729536	because I was	-0.051153
+-0.894586	before by the	-0.051153
+-1.333825	book by JP	-0.051153
+-1.333568	book by John	-0.051153
+-0.856146	book by Kristin	-0.051153
+-0.856146	book by me	-0.051153
+-1.134361	books by Cher	-0.051153
+-0.779119	books by me	-0.051153
+-0.472214	by Cher </s>
+-0.472214	by JP </s>
+-0.522938	by John </s>
+-0.983614	by Kristin and	-0.051153
+-0.983614	by Kristin who	-0.051153
+-0.296406	by me </s>
+-0.801620	by the way	-0.051153
+-0.522938	different book </s>
+-0.801620	different one that	-0.051153
+-0.709752	had written one	-0.051153
+-0.855885	it was really	-0.051153
+-0.656887	magazine by Kristin	-0.051153
+-0.709752	magazine on the	-0.051153
+-0.472214	more interesting </s>
+-0.472214	of boring </s>
+-0.801620	on the plane	-0.051153
+-0.629071	one before by	-0.051153
+-0.650587	one that was	-0.051153
+-0.709752	plane because I	-0.051153
+-0.709829	read Moby Dick	-0.051153
+-0.861872	read a book	-0.176091
+-0.861963	read a different	-0.130334
+-1.357065	read a magazine	-0.051153
+-1.357065	read a tome	-0.051153
+-0.709752	read three books	-0.051153
+-0.709752	read two books	-0.051153
+-0.472214	really good </s>
+-0.801620	really really good	-0.051153
+-0.709829	sort of boring	-0.051153
+-1.069234	that was more	-0.051153
+-1.069234	that was sort	-0.051153
+-0.709829	the plane because	-0.051153
+-0.472214	the way </s>
+-0.522938	three books </s>
+-0.703855	two books by	-0.051153
+-0.472214	was bored </s>
+-0.709829	was more interesting	-0.051153
+-0.801525	was really really	-0.051153
+-0.709829	was sort of	-0.051153
+-0.709829	who had written	-0.051153
+-0.801620	written one before	-0.051153
+
+\4-grams:
+-0.177150	<s> Bob read a	-0.082974
+0.000000	<s> I read a	-0.176091
+-0.654712	<s> John read Moby	-0.082974
+-0.125645	<s> Mary read a	-0.231394
+-0.127039	<s> She read a	-0.019305
+-1.489429	<s> She read three	-0.082974
+-0.951686	<s> She read two	-0.231394
+-0.632162	Bob read a different	-0.082974
+-0.750243	I read a book	-0.082974
+-1.024017	I read a magazine	-0.082974
+-0.386397	I was bored </s>
+-0.545919	John read Moby Dick	-0.082974
+-0.508863	Kristin and it was	-0.082974
+-0.545919	Kristin who had written	-0.082974
+-0.632162	Mary read a different	-0.082974
+-0.750243	She read a book
+-1.024017	She read a tome	-0.082974
+-0.545872	She read three books	-0.082974
+-0.545872	She read two books	-0.231394
+-1.161216	a book by JP	-0.082974
+-1.161062	a book by John	-0.082974
+-0.819380	a book by Kristin	-0.082974
+-0.819380	a book by me	-0.082974
+-0.422806	a different book </s>
+-0.599521	a different one that	-0.231394
+-0.512893	a magazine by Kristin	-0.082974
+-0.545872	a magazine on the	-0.082974
+-0.628969	and it was really	-0.082974
+-0.629025	because I was bored	-0.082974
+-0.599521	before by the way	-0.082974
+-0.386397	book by JP </s>
+-0.422806	book by John </s>
+-0.691611	book by Kristin who	-0.082974
+-0.251570	book by me </s>
+-0.386397	books by Cher </s>
+-0.251570	books by me </s>
+-0.545919	by Kristin and it	-0.082974
+-0.545919	by Kristin who had	-0.082974
+-0.386397	by the way </s>
+-0.508863	different one that was	-0.082974
+-0.599521	had written one before	-0.082974
+-0.599468	it was really really	-0.082974
+-0.691611	magazine by Kristin and	-0.082974
+-0.599521	magazine on the plane	-0.082974
+-0.545919	on the plane because	-0.082974
+-0.648939	one before by the	-0.082974
+-0.881584	one that was more	-0.082974
+-0.881584	one that was sort	-0.082974
+-0.557823	plane because I was	-0.082974
+-0.386397	read Moby Dick </s>
+-0.332383	read a book by	-0.082974
+-0.943152	read a different book	-0.082974
+-0.524082	read a different one	-0.231394
+-0.736845	read a magazine by	-0.082974
+-0.830142	read a magazine on	-0.082974
+-0.386397	read a tome </s>
+-0.422806	read three books </s>
+-0.542269	read two books by	-0.082974
+-0.386397	really really good </s>
+-0.386397	sort of boring </s>
+-0.545919	that was more interesting	-0.082974
+-0.545919	that was sort of	-0.082974
+-0.545872	the plane because I	-0.082974
+-0.917964	two books by Cher	-0.082974
+-0.691705	two books by me	-0.082974
+-0.386397	was more interesting </s>
+-0.599521	was really really good	-0.082974
+-0.545919	was sort of boring	-0.082974
+-0.545872	who had written one	-0.082974
+-0.494940	written one before by	-0.082974
+
+\5-grams:
+-0.435802	<s> Bob read a different
+-0.753362	<s> I read a book
+-0.470515	<s> I read a magazine
+-0.388347	<s> John read Moby Dick
+-0.259672	<s> Mary read a different
+-0.769548	<s> She read a book
+-0.872946	<s> She read a tome
+-0.388320	<s> She read three books
+-0.236535	<s> She read two books
+-0.375663	Bob read a different one
+-0.253219	I read a book by
+-0.622738	I read a magazine by
+-0.679638	I read a magazine on
+-0.289672	John read Moby Dick </s>
+-0.434120	Kristin and it was really
+-0.388320	Kristin who had written one
+-0.742038	Mary read a different book
+-0.476127	Mary read a different one
+-0.332383	She read a book by
+-0.289672	She read a tome </s>
+-0.313399	She read three books </s>
+-0.235494	She read two books by
+-0.289672	a book by JP </s>
+-0.313399	a book by John </s>
+-0.466032	a book by Kristin who
+-0.196011	a book by me </s>
+-0.225552	a different one that was
+-0.466032	a magazine by Kristin and
+-0.418339	a magazine on the plane
+-0.418311	and it was really really
+-0.289672	because I was bored </s>
+-0.289672	before by the way </s>
+-0.388347	book by Kristin who had
+-0.366665	by Kristin and it was
+-0.388347	by Kristin who had written
+-0.708943	different one that was more
+-0.708943	different one that was sort
+-0.358322	had written one before by
+-0.418339	it was really really good
+-0.388347	magazine by Kristin and it
+-0.388347	magazine on the plane because
+-0.388320	on the plane because I
+-0.418339	one before by the way
+-0.388347	one that was more interesting
+-0.388347	one that was sort of
+-0.434150	plane because I was bored
+-0.997965	read a book by JP
+-0.997878	read a book by John
+-0.772910	read a book by Kristin
+-0.772910	read a book by me
+-0.313399	read a different book </s>
+-0.251314	read a different one that
+-0.369061	read a magazine by Kristin
+-0.388320	read a magazine on the
+-0.728761	read two books by Cher
+-0.593526	read two books by me
+-0.289672	that was more interesting </s>
+-0.388347	that was sort of boring
+-0.395148	the plane because I was
+-0.289672	two books by Cher </s>
+-0.196011	two books by me </s>
+-0.289672	was really really good </s>
+-0.289672	was sort of boring </s>
+-0.418339	who had written one before
+-0.444539	written one before by the
+
+\end\

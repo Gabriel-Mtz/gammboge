@@ -1,0 +1,45 @@
+Gammboge Steps
+
+1) Gather a lot of quality(?) source code
+    GitHub now is in something of query?
+
+2) Check it compiles / Discard non-compiling ones
+    Test individually, then generate a single big file to feed
+--------------  Manual up to now  --------------
+
+3) Tokenize it
+    Determine counts frequency
+    Take most frequent ones, ex 8,7 ocurrences each word
+    so on until 97.5% is covered, then what is left shall be replaced by <unk>
+    most likely those appearing only once or twice among the corpora
+
+4) Feed It to N-gram script
+
+5) N-gram inside tokenization(?)
+  Smoothing Kneser Key Modified
+6) Generate Corpus
+
+8) Get Context
+    fill extra <s> when short context, 
+    replace <unk> when not into vocabulary (1-gram)
+    take care of extra spaces (\s+)
+9) Tokenize context
+    More Context = More accuracy
+
+10) Determine predictions words
+    a) Easiest one, try to look for ocurrences on LM
+    if found(check first if N-1 exists on the corpus, else no sense bother searching on actual N); gather them, 
+      b)start using backoff
+    sort (closer number to positive 0 :: more likely), 
+    filter(determine max No of sugestions) and return
+
+    Recursiveness for sentences
+
+20) Display on Atom
+
+
+5&6 IMPORTANT
+
+10  IMPORTANT
+
+8&9 kinda important
