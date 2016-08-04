@@ -1,6 +1,7 @@
 """ARPA reference: http://cmusphinx.sourceforge.net/wiki/sphinx4:standardgrammarformats"""
 """relevant for us: ARPA: [cumulative_probability]<ngram>[backoff_probability(if_any)]
                     JSON: "ngram" [cumulative, backoff] """
+"""Source for medium corpus: http://www.athel.com/sample.html"""
 
 fs = require 'fs'
 path = require 'path'
@@ -10,9 +11,18 @@ myStaticModel = '/Users/gabomartinez/mitlm-0.4.1/myModel.txt'
 myOwnStaticDict = '/Users/gabomartinez/Google Drive/ITESM/8vo-9no Verano Canada/ARPA_Parser/expected.json'
 myGenStaticDict = '/Users/gabomartinez/Google Drive/ITESM/8vo-9no Verano Canada/ARPA_Parser/LMObject.json'
 
-parseArpa= ->
-  content = fs.readFileSync path.resolve(__dirname, 'myModel.txt')
-  content = content.toString()
+convert= ->
+  arpa_file = fs.readFileSync path.resolve(__dirname, 'myModel.txt')
+  console.log "lei arpa desde"
+  tmp = path.resolve(__dirname, 'myModel.txt')
+  console.log tmp
+  arpa_file = arpa_file.toString()
+  JSON_to_write = parseArpa(arpa_file)
+  fs.writeFile(path.resolve(__dirname, 'LMObject.json'), JSON_to_write)
+  return
+
+parseArpa= (original)->
+  content = original
   #console.log("Synchronous read: \n" + content)
   """gram_lines"""
   """ $1 P  $3 ngram  $4 BP """
@@ -40,13 +50,12 @@ parseArpa= ->
   replacement = "}\n\n}"
   content = content.replace( regexp, replacement)
   #console.log("Alteration: \n" + content)
-  """JSON doesnt like empy PB"""
+  """JSON doesnt like empty PB"""
   regexp = /("BP"):}$/gm
   replacement = "$1:0}"
   content = content.replace( regexp, replacement)
   #console.log("Alteration: \n" + content)
-  fs.writeFile(path.resolve(__dirname, 'LMObject.json'), content)
-  return
+  return content
     #result = intermedio.replace("^(ngram [0-9]+)=([0-9]+)$", "\t,\"$1\":$2")
 
 loadLM= ->
@@ -108,7 +117,33 @@ liveGuess= (sentence)->
     console.log candidates
     return candidates
 
-parseArpa()
+myOwnStaticFolder = '/Users/gabomartinez/Google Drive/ITESM/8vo-9no Verano Canada'
+"""
+util = require('util')
+spawn = require('child_process').spawn
+
+ls = spawn('cd', [
+  '/Users/gabomartinez/Google Drive/ITESM'
+])
+
+ls = spawn('ls', [
+  '-lh'
+])
+# the second arg is the command
+# options
+ls.stdout.on 'data', (data) ->
+  # register one or more handlers
+  console.log 'stdout: ' + data
+  return
+ls.stderr.on 'data', (data) ->
+  console.log 'stderr: ' + data
+  return
+ls.on 'exit', (code) ->
+  console.log 'child process exited with code ' + code
+  return
+"""
+
+#convert()
 """
 console.log "arranca"
 loadLM()
