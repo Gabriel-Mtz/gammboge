@@ -3,6 +3,7 @@ Gammboge Steps
 1) Gather a lot of quality(?) source code
     GitHub now is in something of query?
 
+
 2) Check it compiles / Discard non-compiling ones
     Test individually, then generate a single big file to feed
 --------------  Manual up to now  --------------
@@ -13,11 +14,14 @@ Gammboge Steps
     so on until 97.5% is covered, then what is left shall be replaced by <unk>
     most likely those appearing only once or twice among the corpora
 
+
 4) Feed It to N-gram script
+  Parse it to JSON
 
 5) N-gram inside tokenization(?)
   Smoothing Kneser Key Modified
 6) Generate Corpus
+
 
 8) Get Context
     fill extra <s> when short context, 
