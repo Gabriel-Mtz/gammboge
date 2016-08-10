@@ -1,10 +1,20 @@
 {
   "name": "gammboge",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "JavaScript autocompletion and suggestion",
   "main": "./lib/main",
   "license": "MIT",
-  "repository": "https://bitbucket.org/gabommartinez/autocomplete-gamboge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Mtz/gammboge"
+  },
+  "keywords": [
+    "ngram",
+    "autocomplete",
+    "suggestions",
+    "kneser-ney",
+    "JavaScript"
+  ],
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
