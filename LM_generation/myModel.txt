@@ -1,0 +1,1869 @@
+
+\data\
+ngram 1=29
+ngram 2=91
+ngram 3=166
+ngram 4=230
+ngram 5=282
+ngram 6=322
+ngram 7=350
+ngram 8=371
+
+\1-grams:
+-2.085070	</s>
+-99	<s>	-0.221849
+-2.085070	&&	-0.221849
+-1.232553	(	-0.314603
+-1.038549	)	-0.402305
+-1.232553	,	-0.221849
+-2.085070	.	-0.221849
+-2.085070	:	-0.221849
+-1.746934	=	-0.221849
+-2.085070	===	-0.221849
+-2.085070	=>	-0.221849
+-0.720316	Identifier	-0.459210
+-1.436980	Numeric	-0.221849
+-2.085070	RegularExpression	-0.221849
+-1.322848	String	-0.346787
+-1.322848	Template	-0.413734
+-1.746934	[	-0.221849
+-1.746934	]	-0.221849
+-1.094111	const	-0.744727
+-2.085070	default	-0.221849
+-2.085070	else	-0.221849
+-1.746934	export	-0.221849
+-1.322848	if	-0.647817
+-1.436980	import	-0.425969
+-2.085070	new	-0.221849
+-1.436980	return	-0.522879
+-2.085070	throw	-0.221849
+-1.232553	{	-0.471726
+-1.322848	}	-0.275094
+
+\2-grams:
+-0.374753	<s> import	-0.149049
+-0.288830	&& Identifier	-0.149049
+-1.046204	( (	-0.149049
+-0.975171	( )	-0.149049
+-0.480519	( Identifier	-0.218682
+-1.314372	( Numeric	-0.149049
+-1.269115	( String	-0.149049
+-1.269115	( Template	-0.149049
+-1.153556	( [	-0.149049
+-1.715444	) </s>
+-1.165983	) )	-0.149049
+-1.406919	) ,	-0.149049
+-1.059207	) =>	-0.131100
+-0.797508	) Identifier	-0.131100
+-1.458048	) Template	-0.149049
+-0.807196	) const	-0.439494
+-1.636541	) export	-0.149049
+-1.458048	) if	-0.149049
+-1.516010	) return	-0.149049
+-1.715444	) throw	-0.149049
+-0.969880	) {	-0.135518
+-0.987881	) }	-0.248941
+-0.825623	, (	-0.122396
+-0.766021	, Identifier	-0.149049
+-0.865751	, Numeric	-0.149049
+-0.845224	, String	-0.122396
+-0.288830	. Identifier	-0.149049
+-0.386427	: [	-0.149049
+-0.938836	= (	-0.149049
+-0.561862	= Identifier	-0.138191
+-1.070925	= RegularExpression	-0.149049
+-0.964450	= Template	-0.149049
+-0.368019	=== String	-0.149049
+-0.502732	=> Identifier	-0.149049
+-0.628704	=> {	-0.149049
+-1.873477	Identifier &&	-0.149049
+-0.742655	Identifier (	-0.292353
+-0.945520	Identifier )	-0.131100
+-0.991768	Identifier ,	-0.296364
+-0.786796	Identifier .	-0.800555
+-1.873477	Identifier :	-0.149049
+-1.776056	Identifier =	-0.149049
+-1.873477	Identifier ===	-0.149049
+-1.115387	Identifier Identifier	-0.149049
+-1.425158	Identifier String	-0.135518
+-1.425158	Identifier Template	-0.127597
+-1.564258	Identifier ]	-0.131100
+-1.414591	Identifier const	-0.149049
+-1.567933	Identifier if	-0.149049
+-1.634016	Identifier import	-0.149049
+-1.425158	Identifier }	-0.149049
+-0.593624	Numeric )	-0.149049
+-0.869269	Numeric ,	-0.149049
+-0.955675	Numeric ]	-0.149049
+-0.348421	RegularExpression const	-0.149049
+-0.407626	String )	-0.149049
+-0.987587	String const	-0.149049
+-1.126530	String export	-0.149049
+-1.080299	String import	-0.149049
+-1.034149	Template )	-0.149049
+-1.098420	Template ,	-0.149049
+-0.287098	Template Identifier	-0.360378
+-1.054534	Template const	-0.149049
+-0.419176	[ Identifier	-0.131100
+-0.808912	[ Numeric	-0.149049
+-0.492724	] )	-0.149049
+-0.790851	] }	-0.149049
+-0.264183	const Identifier	-0.733609
+-0.494122	const {	-0.557517
+-0.288830	default Identifier	-0.149049
+-0.361387	else {	-0.149049
+-0.392617	export default	-0.122396
+-0.103379	if (	-0.557517
+-0.765982	import Identifier	-0.149049
+-0.262051	import {	-0.432579
+-0.288830	new Identifier	-0.149049
+-0.120834	return Identifier	-0.131100
+-0.392617	throw new	-0.149049
+-0.239003	{ Identifier	-0.256188
+-1.112526	{ const	-0.149049
+-1.180139	{ if	-0.149049
+-1.205237	{ return	-0.149049
+-0.677559	} )	-0.131100
+-1.033346	} ,	-0.122396
+-1.148473	} =	-0.122396
+-0.879981	} Identifier	-0.149049
+-1.133681	} const	-0.149049
+-1.454288	} else	-0.149049
+-1.251755	} if	-0.149049
+-1.299515	} return	-0.149049
+-1.251755	} }	-0.149049
+
+\3-grams:
+-0.168409	<s> import {	-0.106650
+-0.430702	&& Identifier )	-0.106650
+-0.764576	( ( )	-0.106650
+-0.479529	( ( Identifier	-0.106650
+-0.833708	( ( [	-0.106650
+-0.712949	( ) )	-0.106650
+-0.683696	( ) =>	-0.106650
+-1.352609	( Identifier &&	-0.106650
+-0.515677	( Identifier )	-0.106508
+-0.910115	( Identifier ,	-0.106401
+-0.795486	( Identifier .	-0.106401
+-0.326651	( Numeric )	-0.106650
+-0.245619	( String )	-0.106650
+-0.182556	( Template Identifier	-0.106650
+-0.381422	( [ Identifier	-0.106650
+-0.592754	( [ Numeric	-0.106650
+-0.791465	) ) export	-0.106650
+-0.655026	) ) {	-0.106650
+-0.406902	) , String	-0.106650
+-0.482543	) => Identifier	-0.106650
+-0.471612	) => {	-0.106484
+-0.637198	) Identifier (	-0.106650
+-0.545856	) Identifier .	-0.106401
+-0.291099	) Template Identifier	-0.106650
+-0.682294	) Template const	-0.106650
+-0.110003	) const Identifier	-0.359422
+-0.757916	) const {	-0.106650
+-0.238221	) export default	-0.106650
+-0.070730	) if (	-0.106650
+-0.082138	) return Identifier	-0.106650
+-0.238221	) throw new	-0.106650
+-0.305581	) { Identifier	-0.106650
+-0.746455	) { const	-0.106650
+-0.927180	) { return	-0.106650
+-0.796041	) } )	-0.106650
+-1.028235	) } ,	-0.106650
+-1.081255	) } const	-0.106650
+-1.136246	) } if	-0.106650
+-0.520199	) } }	-0.106526
+-0.305304	, ( Identifier	-0.106401
+-0.696920	, Identifier (	-0.106650
+-0.815144	, Identifier )	-0.106650
+-0.838832	, Identifier ,	-0.106650
+-1.036324	, Identifier ]	-0.106650
+-0.486643	, Numeric )	-0.106650
+-0.650092	, Numeric ]	-0.106650
+-0.267042	, String )	-0.106401
+-0.752671	. Identifier (	-0.106650
+-0.889917	. Identifier )	-0.106650
+-0.918204	. Identifier ,	-0.106650
+-0.784267	. Identifier .	-0.106650
+-1.237234	. Identifier ===	-0.106650
+-1.124516	. Identifier Template	-0.106650
+-0.251224	: [ Identifier	-0.106650
+-0.450639	= ( (	-0.106650
+-0.722002	= Identifier (	-0.106650
+-0.663356	= Identifier .	-0.106401
+-1.064974	= Identifier const	-0.106650
+-1.109167	= Identifier if	-0.106650
+-0.215684	= RegularExpression const	-0.106650
+-0.182556	= Template Identifier	-0.106650
+-0.245619	=== String )	-0.106650
+-0.377969	=> Identifier (	-0.106650
+-0.256128	=> { Identifier	-0.106650
+-0.716445	=> { if	-0.106650
+-0.183522	Identifier && Identifier	-0.106650
+-1.115996	Identifier ( (	-0.106650
+-1.141663	Identifier ( )	-0.106650
+-0.385151	Identifier ( Identifier	-0.156748
+-1.256237	Identifier ( Numeric	-0.106401
+-1.235460	Identifier ( String	-0.106401
+-0.836544	Identifier ( Template	-0.234484
+-1.267819	Identifier ( [	-0.106650
+-1.082313	Identifier ) )	-0.106650
+-0.924101	Identifier ) =>	-0.106401
+-0.823489	Identifier ) Identifier	-0.106650
+-0.831076	Identifier ) const	-0.106650
+-0.873445	Identifier ) {	-0.106484
+-0.884014	Identifier ) }	-0.106650
+-0.874154	Identifier , (	-0.106650
+-0.332531	Identifier , Identifier	-0.106550
+-0.885123	Identifier , String	-0.106650
+-0.034746	Identifier . Identifier	-0.326390
+-0.235133	Identifier : [	-0.106650
+-0.811619	Identifier = (	-0.106650
+-0.573161	Identifier = Identifier	-0.106650
+-0.876523	Identifier = RegularExpression	-0.106650
+-0.824989	Identifier = Template	-0.106650
+-0.225816	Identifier === String	-0.106650
+-0.498723	Identifier Identifier String	-0.106650
+-0.829905	Identifier String const	-0.106650
+-0.895099	Identifier String export	-0.106650
+-0.736040	Identifier String import	-0.106484
+-0.776910	Identifier Template )	-0.106550
+-0.929861	Identifier Template ,	-0.106650
+-0.315963	Identifier Template Identifier	-0.106650
+-0.475455	Identifier ] )	-0.106650
+-0.547573	Identifier ] }	-0.106401
+-0.169627	Identifier const Identifier	-0.106650
+-0.070730	Identifier if (	-0.106650
+-0.168409	Identifier import {	-0.106650
+-0.654242	Identifier } )	-0.106650
+-0.909985	Identifier } =	-0.106650
+-0.779474	Identifier } Identifier	-0.106650
+-1.010763	Identifier } else	-0.106650
+-0.956653	Numeric ) </s>
+-0.677927	Numeric ) Identifier	-0.106650
+-0.915259	Numeric ) Template	-0.106650
+-0.412118	Numeric , Numeric	-0.106650
+-0.285121	Numeric ] )	-0.106650
+-0.169627	RegularExpression const Identifier	-0.106650
+-0.998159	String ) ,	-0.106650
+-0.731140	String ) Identifier	-0.106650
+-0.737014	String ) const	-0.106650
+-0.827775	String ) {	-0.106650
+-0.274569	String const Identifier	-0.106650
+-0.428674	String const {	-0.106650
+-0.238221	String export default	-0.106650
+-0.573715	String import Identifier	-0.106650
+-0.273018	String import {	-0.106650
+-1.011720	Template ) if	-0.106650
+-1.025719	Template ) return	-0.106650
+-1.064052	Template ) throw	-0.106650
+-0.836889	Template ) }	-0.106650
+-0.401748	Template , (	-0.106650
+-0.257074	Template Identifier .	-0.359422
+-1.007664	Template Identifier Template	-0.106526
+-0.169627	Template const Identifier	-0.106650
+-0.621441	[ Identifier ,	-0.106401
+-0.931809	[ Identifier ]	-0.106650
+-0.412994	[ Numeric ,	-0.106650
+-0.683696	] ) =>	-0.106650
+-0.592012	] ) const	-0.106650
+-0.467363	] } =	-0.106650
+-0.087021	const Identifier =	-0.290819
+-0.054156	const { Identifier	-0.106401
+-0.562929	default Identifier (	-0.106650
+-0.791208	default Identifier import	-0.106650
+-0.155079	else { Identifier	-0.106650
+-0.198223	export default Identifier	-0.106650
+-0.089049	if ( Identifier	-0.165785
+-0.462309	import Identifier Identifier	-0.106650
+-0.073821	import { Identifier	-0.234484
+-0.377969	new Identifier (	-0.106650
+-0.662252	return Identifier .	-0.106650
+-0.717807	return Identifier }	-0.106650
+-0.183522	throw new Identifier	-0.106650
+-0.391572	{ Identifier .	-0.234484
+-1.253086	{ Identifier :	-0.106650
+-0.988458	{ Identifier }	-0.106650
+-0.274569	{ const Identifier	-0.106650
+-0.428674	{ const {	-0.106650
+-0.070730	{ if (	-0.106650
+-0.082138	{ return Identifier	-0.106650
+-0.673457	} ) const	-0.106650
+-0.620212	} ) }	-0.106484
+-0.457969	} , Numeric	-0.106401
+-0.344394	} = Identifier	-0.106650
+-0.498723	} Identifier String	-0.106650
+-0.285735	} const {	-0.106650
+-0.222412	} else {	-0.106650
+-0.070730	} if (	-0.106650
+-0.082138	} return Identifier	-0.106650
+-0.609233	} } )	-0.106650
+-0.789039	} } ,	-0.106650
+-0.878003	} } return	-0.106650
+
+\4-grams:
+-0.056644	<s> import { Identifier	-0.097616
+-0.491562	&& Identifier ) {	-0.097616
+-0.420452	( ( ) =>	-0.097616
+-0.340708	( ( Identifier )	-0.097616
+-0.265380	( ( [ Identifier	-0.097616
+-0.407987	( ) ) {	-0.097616
+-0.323069	( ) => Identifier	-0.097616
+-0.136439	( Identifier && Identifier	-0.097616
+-1.018422	( Identifier ) )	-0.097616
+-0.808888	( Identifier ) =>	-0.093253
+-0.745755	( Identifier ) Identifier	-0.093253
+-0.867003	( Identifier ) {	-0.097616
+-0.875130	( Identifier ) }	-0.097616
+-0.235625	( Identifier , Identifier	-0.093253
+-0.026956	( Identifier . Identifier	-0.097616
+-0.709281	( Numeric ) </s>
+-0.690474	( Numeric ) Template	-0.097616
+-0.727163	( String ) ,	-0.097616
+-0.598254	( String ) const	-0.097616
+-0.266274	( Template Identifier .	-0.097616
+-0.731122	( Template Identifier Template	-0.097616
+-0.392791	( [ Identifier ,	-0.097616
+-0.284009	( [ Numeric ,	-0.097616
+-0.174099	) ) export default	-0.097616
+-0.446130	) ) { const	-0.097616
+-0.193338	) , String )	-0.097616
+-0.263309	) => Identifier (	-0.097616
+-0.295438	) => { Identifier	-0.097616
+-0.529881	) => { if	-0.093253
+-0.365396	) Identifier ( Identifier	-0.097616
+-0.651997	) Identifier ( Template	-0.097616
+-0.026956	) Identifier . Identifier	-0.093253
+-0.186732	) Template Identifier .	-0.097616
+-0.126640	) Template const Identifier	-0.097616
+-0.035913	) const Identifier =	-0.095429
+-0.041775	) const { Identifier	-0.097616
+-0.146706	) export default Identifier	-0.097616
+-0.068044	) if ( Identifier	-0.097616
+-0.411172	) return Identifier .	-0.097616
+-0.136439	) throw new Identifier	-0.097616
+-0.271429	) { Identifier .	-0.097616
+-0.280195	) { const Identifier	-0.097616
+-0.397510	) { const {	-0.097616
+-0.062883	) { return Identifier	-0.097616
+-0.392222	) } ) }	-0.097616
+-0.309582	) } , Numeric	-0.097616
+-0.205588	) } const {	-0.097616
+-0.054318	) } if (	-0.097616
+-0.521343	) } } )	-0.093253
+-0.740836	) } } ,	-0.097616
+-0.801172	) } } return	-0.097616
+-0.503676	, ( Identifier ,	-0.093253
+-0.267609	, Identifier ( Identifier	-0.097616
+-0.694573	, Identifier ) =>	-0.097616
+-0.649192	, Identifier ) const	-0.097616
+-0.670826	, Identifier , (	-0.097616
+-0.325474	, Identifier , Identifier	-0.097616
+-0.431064	, Identifier ] )	-0.097616
+-0.480728	, Identifier ] }	-0.097616
+-0.417981	, Numeric ) Identifier	-0.097616
+-0.205188	, Numeric ] )	-0.097616
+-0.440502	, String ) Identifier	-0.093253
+-1.016914	. Identifier ( (	-0.097616
+-1.032718	. Identifier ( )	-0.097616
+-0.445456	. Identifier ( Identifier	-0.097616
+-1.098800	. Identifier ( Numeric	-0.097616
+-1.087365	. Identifier ( String	-0.097616
+-0.823144	. Identifier ( Template	-0.097616
+-0.494966	. Identifier ) }	-0.097616
+-0.495319	. Identifier , String	-0.097616
+-0.026940	. Identifier . Identifier	-0.097616
+-0.165688	. Identifier === String	-0.097616
+-0.620476	. Identifier Template )	-0.097616
+-0.312667	. Identifier Template Identifier	-0.097616
+-0.528855	: [ Identifier ,	-0.097616
+-0.698111	: [ Identifier ]	-0.097616
+-0.321433	= ( ( Identifier	-0.097616
+-0.941857	= Identifier ( (	-0.097616
+-0.424016	= Identifier ( Identifier	-0.097616
+-1.000335	= Identifier ( String	-0.097616
+-1.014768	= Identifier ( [	-0.097616
+-0.026956	= Identifier . Identifier	-0.093253
+-0.126640	= Identifier const Identifier	-0.097616
+-0.054318	= Identifier if (	-0.097616
+-0.126640	= RegularExpression const Identifier	-0.097616
+-0.186732	= Template Identifier .	-0.097616
+-0.476201	=== String ) {	-0.097616
+-0.267609	=> Identifier ( Identifier	-0.097616
+-0.271429	=> { Identifier .	-0.097616
+-0.054318	=> { if (	-0.097616
+-0.294214	Identifier && Identifier )	-0.097616
+-0.613703	Identifier ( ( )	-0.097616
+-0.650544	Identifier ( ( [	-0.097616
+-0.432694	Identifier ( ) )	-0.097616
+-0.407371	Identifier ( Identifier )	-0.097616
+-0.830282	Identifier ( Identifier ,	-0.093253
+-0.760175	Identifier ( Identifier .	-0.093253
+-0.231934	Identifier ( Numeric )	-0.097616
+-0.179205	Identifier ( String )	-0.094702
+-0.096913	Identifier ( Template Identifier	-0.022425
+-0.379299	Identifier ( [ Numeric	-0.097616
+-0.463212	Identifier ) ) export	-0.097616
+-0.317380	Identifier ) => {	-0.093253
+-0.356226	Identifier ) Identifier .	-0.097616
+-0.083565	Identifier ) const Identifier	-0.097616
+-0.274038	Identifier ) { Identifier	-0.093253
+-0.782195	Identifier ) { return	-0.097616
+-0.745814	Identifier ) } )	-0.097616
+-0.923312	Identifier ) } const	-0.097616
+-0.952347	Identifier ) } if	-0.097616
+-0.536756	Identifier ) } }	-0.097616
+-0.218215	Identifier , ( Identifier	-0.097616
+-0.697288	Identifier , Identifier (	-0.097616
+-0.684710	Identifier , Identifier )	-0.094702
+-0.804240	Identifier , Identifier ,	-0.097616
+-0.937365	Identifier , Identifier ]	-0.097616
+-0.193338	Identifier , String )	-0.097616
+-0.283170	Identifier . Identifier (	-0.064333
+-1.102836	Identifier . Identifier )	-0.097616
+-1.124455	Identifier . Identifier ,	-0.097616
+-1.019303	Identifier . Identifier .	-0.097616
+-1.342384	Identifier . Identifier ===	-0.097616
+-1.271220	Identifier . Identifier Template	-0.097616
+-0.182832	Identifier : [ Identifier	-0.097616
+-0.305492	Identifier = ( (	-0.097616
+-0.589659	Identifier = Identifier (	-0.097616
+-0.554874	Identifier = Identifier .	-0.097616
+-0.158761	Identifier = RegularExpression const	-0.097616
+-0.135761	Identifier = Template Identifier	-0.097616
+-0.179078	Identifier === String )	-0.097616
+-0.648589	Identifier Identifier String const	-0.097616
+-0.597700	Identifier Identifier String import	-0.097616
+-0.280195	Identifier String const Identifier	-0.097616
+-0.397510	Identifier String const {	-0.097616
+-0.174099	Identifier String export default	-0.097616
+-0.451369	Identifier String import Identifier	-0.093253
+-0.309868	Identifier String import {	-0.097616
+-0.921874	Identifier Template ) if	-0.097616
+-0.794086	Identifier Template ) return	-0.093253
+-0.954431	Identifier Template ) throw	-0.097616
+-0.802835	Identifier Template ) }	-0.097616
+-0.277437	Identifier Template , (	-0.097616
+-0.266274	Identifier Template Identifier .	-0.097616
+-0.731122	Identifier Template Identifier Template	-0.097616
+-0.420452	Identifier ] ) =>	-0.097616
+-0.315043	Identifier ] } =	-0.093253
+-0.066532	Identifier const Identifier =	-0.097616
+-0.068044	Identifier if ( Identifier	-0.097616
+-0.056644	Identifier import { Identifier	-0.097616
+-0.416054	Identifier } ) const	-0.097616
+-0.242829	Identifier } = Identifier	-0.097616
+-0.331761	Identifier } Identifier String	-0.097616
+-0.163367	Identifier } else {	-0.097616
+-0.356226	Numeric ) Identifier .	-0.097616
+-0.293242	Numeric ) Template Identifier	-0.097616
+-0.566316	Numeric ) Template const	-0.097616
+-0.405795	Numeric , Numeric ]	-0.097616
+-0.378945	Numeric ] ) const	-0.097616
+-0.066532	RegularExpression const Identifier =	-0.097616
+-0.280458	String ) , String	-0.097616
+-0.400001	String ) Identifier (	-0.097616
+-0.145031	String ) const Identifier	-0.097616
+-0.610009	String ) const {	-0.097616
+-0.446130	String ) { const	-0.097616
+-0.066532	String const Identifier =	-0.097616
+-0.041775	String const { Identifier	-0.097616
+-0.146706	String export default Identifier	-0.097616
+-0.311988	String import Identifier Identifier	-0.097616
+-0.056644	String import { Identifier	-0.097616
+-0.054318	Template ) if (	-0.097616
+-0.062883	Template ) return Identifier	-0.097616
+-0.174099	Template ) throw new	-0.097616
+-0.343067	Template ) } }	-0.097616
+-0.218215	Template , ( Identifier	-0.097616
+-0.014847	Template Identifier . Identifier	-0.093253
+-0.620814	Template Identifier Template )	-0.097616
+-0.834463	Template Identifier Template ,	-0.097616
+-0.364061	Template Identifier Template Identifier	-0.097616
+-0.066532	Template const Identifier =	-0.097616
+-0.235625	[ Identifier , Identifier	-0.093253
+-0.357093	[ Identifier ] }	-0.097616
+-0.283500	[ Numeric , Numeric	-0.097616
+-0.317112	] ) => {	-0.097616
+-0.083565	] ) const Identifier	-0.097616
+-0.242829	] } = Identifier	-0.097616
+-0.973851	const Identifier = (	-0.097616
+-0.265016	const Identifier = Identifier	-0.034937
+-1.021176	const Identifier = RegularExpression	-0.097616
+-0.983755	const Identifier = Template	-0.097616
+-0.817157	const { Identifier :	-0.093253
+-0.723479	const { Identifier }	-0.093253
+-0.583186	default Identifier ( Numeric	-0.097616
+-0.125777	default Identifier import {	-0.097616
+-0.271429	else { Identifier .	-0.097616
+-0.490966	export default Identifier (	-0.097616
+-0.628219	export default Identifier import	-0.097616
+-1.176515	if ( Identifier &&	-0.097616
+-0.380042	if ( Identifier )	-0.094702
+-0.740505	if ( Identifier .	-0.093253
+-0.331761	import Identifier Identifier String	-0.097616
+-0.321433	import { Identifier }
+-0.479233	new Identifier ( Template	-0.097616
+-0.026940	return Identifier . Identifier	-0.097616
+-0.549297	return Identifier } )	-0.097616
+-0.732401	return Identifier } else	-0.097616
+-0.263309	throw new Identifier (	-0.097616
+-0.019910	{ Identifier . Identifier
+-0.172012	{ Identifier : [	-0.097616
+-0.688007	{ Identifier } =	-0.097616
+-0.621873	{ Identifier } Identifier	-0.097616
+-0.066532	{ const Identifier =	-0.097616
+-0.041775	{ const { Identifier	-0.097616
+-0.068044	{ if ( Identifier	-0.097616
+-0.434680	{ return Identifier }	-0.097616
+-0.083565	} ) const Identifier	-0.097616
+-0.835913	} ) } ,	-0.097616
+-0.418981	} ) } }	-0.097616
+-0.325563	} , Numeric )	-0.093253
+-0.615463	} = Identifier .	-0.097616
+-0.854069	} = Identifier const	-0.097616
+-0.874780	} = Identifier if	-0.097616
+-0.680959	} Identifier String export	-0.097616
+-0.597700	} Identifier String import	-0.097616
+-0.041775	} const { Identifier	-0.097616
+-0.116282	} else { Identifier	-0.097616
+-0.068044	} if ( Identifier	-0.097616
+-0.434680	} return Identifier }	-0.097616
+-0.392222	} } ) }	-0.097616
+-0.309582	} } , Numeric	-0.097616
+-0.062883	} } return Identifier	-0.097616
+
+\5-grams:
+-0.234837	<s> import { Identifier }	-0.073232
+-0.203247	&& Identifier ) { Identifier	-0.073232
+-0.235907	( ( ) => Identifier	-0.073232
+-0.487689	( ( Identifier ) =>	-0.073232
+-0.280180	( ( [ Identifier ,	-0.073232
+-0.312270	( ) ) { const	-0.073232
+-0.195938	( ) => Identifier (	-0.073232
+-0.216835	( Identifier && Identifier )	-0.073232
+-0.322213	( Identifier ) ) export	-0.073232
+-0.235291	( Identifier ) => {	-0.020877
+-0.260844	( Identifier ) Identifier .	-0.020877
+-0.279338	( Identifier ) { Identifier	-0.073232
+-0.633516	( Identifier ) { return	-0.073232
+-0.789427	( Identifier ) } const	-0.073232
+-0.806229	( Identifier ) } if	-0.073232
+-0.524075	( Identifier ) } }	-0.073232
+-0.579457	( Identifier , Identifier )	-0.073232
+-0.651231	( Identifier , Identifier ,	-0.037637
+-0.340677	( Identifier . Identifier (	-0.073232
+-0.985942	( Identifier . Identifier )	-0.073232
+-0.999006	( Identifier . Identifier ,	-0.073232
+-0.933087	( Identifier . Identifier .	-0.073232
+-1.115955	( Identifier . Identifier ===	-0.073232
+-0.294799	( Numeric ) Template Identifier	-0.073232
+-0.498319	( Numeric ) Template const	-0.073232
+-0.207593	( String ) , String	-0.073232
+-0.172247	( String ) const Identifier	-0.073232
+-0.527678	( String ) const {	-0.073232
+-0.011817	( Template Identifier . Identifier	-0.073232
+-0.587816	( Template Identifier Template )	-0.073232
+-0.735115	( Template Identifier Template ,	-0.073232
+-0.384576	( Template Identifier Template Identifier	-0.073232
+-0.176815	( [ Identifier , Identifier	-0.073232
+-0.209646	( [ Numeric , Numeric	-0.073232
+-0.112922	) ) export default Identifier	-0.073232
+-0.207416	) ) { const Identifier	-0.073232
+-0.308959	) , String ) Identifier	-0.073232
+-0.198874	) => Identifier ( Identifier	-0.073232
+-0.201475	) => { Identifier .	-0.073232
+-0.043279	) => { if (	-0.020877
+-0.495721	) Identifier ( Identifier ,	-0.073232
+-0.075589	) Identifier ( Template Identifier	-0.073232
+-0.212149	) Identifier . Identifier (	-0.020877
+-0.011817	) Template Identifier . Identifier	-0.073232
+-0.052295	) Template const Identifier =	-0.073232
+-0.273528	) const Identifier = Identifier	-0.020877
+-0.896957	) const Identifier = RegularExpression	-0.073232
+-0.874007	) const Identifier = Template	-0.073232
+-0.453120	) const { Identifier }	-0.073232
+-0.409714	) export default Identifier import	-0.073232
+-0.272279	) if ( Identifier )	-0.073232
+-0.021381	) return Identifier . Identifier	-0.073232
+-0.195938	) throw new Identifier (	-0.073232
+-0.015828	) { Identifier . Identifier	-0.073232
+-0.052295	) { const Identifier =	-0.073232
+-0.033037	) { const { Identifier	-0.073232
+-0.305515	) { return Identifier }	-0.073232
+-0.296133	) } ) } }	-0.073232
+-0.237535	) } , Numeric )	-0.073232
+-0.033037	) } const { Identifier	-0.073232
+-0.053463	) } if ( Identifier	-0.073232
+-0.283815	) } } ) }	-0.073232
+-0.227046	) } } , Numeric	-0.073232
+-0.049472	) } } return Identifier	-0.073232
+-0.179024	, ( Identifier , Identifier	-0.073232
+-0.289108	, Identifier ( Identifier )	-0.073232
+-0.232180	, Identifier ) => {	-0.073232
+-0.065401	, Identifier ) const Identifier	-0.073232
+-0.164598	, Identifier , ( Identifier	-0.073232
+-0.583344	, Identifier , Identifier (	-0.073232
+-0.575573	, Identifier , Identifier )	-0.073232
+-0.297018	, Identifier ] ) =>	-0.073232
+-0.230645	, Identifier ] } =	-0.073232
+-0.257284	, Numeric ) Identifier .	-0.073232
+-0.271595	, Numeric ] ) const	-0.073232
+-0.288688	, String ) Identifier (	-0.073232
+-0.402643	. Identifier ( ( )	-0.073232
+-0.304335	. Identifier ( ) )	-0.073232
+-0.420540	. Identifier ( Identifier )	-0.073232
+-0.732454	. Identifier ( Identifier ,	-0.073232
+-0.686466	. Identifier ( Identifier .	-0.073232
+-0.174237	. Identifier ( Numeric )	-0.073232
+-0.136700	. Identifier ( String )	-0.073232
+-0.075589	. Identifier ( Template Identifier	-0.073232
+-0.462551	. Identifier ) } )	-0.073232
+-0.146889	. Identifier , String )	-0.073232
+-0.209423	. Identifier . Identifier (	-0.073232
+-0.136608	. Identifier === String )	-0.073232
+-0.481987	. Identifier Template ) return	-0.073232
+-0.197964	. Identifier Template Identifier .	-0.073232
+-0.176815	: [ Identifier , Identifier	-0.073232
+-0.257836	: [ Identifier ] }	-0.073232
+-0.247352	= ( ( Identifier )	-0.073232
+-0.420352	= Identifier ( ( [	-0.073232
+-0.468468	= Identifier ( Identifier .	-0.073232
+-0.136700	= Identifier ( String )	-0.073232
+-0.271816	= Identifier ( [ Numeric	-0.073232
+-0.212149	= Identifier . Identifier (	-0.037637
+-0.052295	= Identifier const Identifier =	-0.073232
+-0.053463	= Identifier if ( Identifier	-0.073232
+-0.052295	= RegularExpression const Identifier =	-0.073232
+-0.011817	= Template Identifier . Identifier	-0.073232
+-0.312270	=== String ) { const	-0.073232
+-0.289108	=> Identifier ( Identifier )	-0.073232
+-0.015828	=> { Identifier . Identifier	-0.073232
+-0.053463	=> { if ( Identifier	-0.073232
+-0.338352	Identifier && Identifier ) {	-0.073232
+-0.297018	Identifier ( ( ) =>	-0.073232
+-0.197353	Identifier ( ( [ Identifier	-0.073232
+-0.289482	Identifier ( ) ) {	-0.073232
+-0.896614	Identifier ( Identifier ) )	-0.073232
+-0.758588	Identifier ( Identifier ) =>	-0.073232
+-0.712756	Identifier ( Identifier ) Identifier	-0.073232
+-0.804650	Identifier ( Identifier ) }	-0.073232
+-0.179024	Identifier ( Identifier , Identifier	-0.037637
+-0.021615	Identifier ( Identifier . Identifier	-0.073232
+-0.590673	Identifier ( Numeric ) </s>
+-0.579144	Identifier ( Numeric ) Template	-0.073232
+-0.661928	Identifier ( String ) ,	-0.073232
+-0.479370	Identifier ( String ) const	-0.037637
+-0.248163	Identifier ( Template Identifier .	-0.073232
+-0.753547	Identifier ( Template Identifier Template	-0.046266
+-0.209988	Identifier ( [ Numeric ,	-0.073232
+-0.132996	Identifier ) ) export default	-0.073232
+-0.365127	Identifier ) => { if	-0.020877
+-0.021394	Identifier ) Identifier . Identifier	-0.073232
+-0.028441	Identifier ) const Identifier =	-0.073232
+-0.204072	Identifier ) { Identifier .	-0.020877
+-0.049472	Identifier ) { return Identifier	-0.073232
+-0.279830	Identifier ) } ) }	-0.073232
+-0.155645	Identifier ) } const {	-0.073232
+-0.042824	Identifier ) } if (	-0.073232
+-0.354815	Identifier ) } } )	-0.073232
+-0.345110	Identifier , ( Identifier ,	-0.073232
+-0.198874	Identifier , Identifier ( Identifier	-0.073232
+-0.535697	Identifier , Identifier ) =>	-0.020877
+-0.606521	Identifier , Identifier ) const	-0.073232
+-0.566896	Identifier , Identifier , (	-0.073232
+-0.320442	Identifier , Identifier , Identifier	-0.073232
+-0.401572	Identifier , Identifier ] )	-0.073232
+-0.438086	Identifier , Identifier ] }	-0.073232
+-0.308959	Identifier , String ) Identifier	-0.073232
+-0.986877	Identifier . Identifier ( (	-0.073232
+-0.999549	Identifier . Identifier ( )	-0.073232
+-0.509789	Identifier . Identifier ( Identifier	-0.046266
+-1.051510	Identifier . Identifier ( Numeric	-0.073232
+-0.961916	Identifier . Identifier ( String	-0.020877
+-0.774116	Identifier . Identifier ( Template	-0.020877
+-0.340260	Identifier . Identifier ) }	-0.073232
+-0.340457	Identifier . Identifier , String	-0.073232
+-0.021381	Identifier . Identifier . Identifier	-0.073232
+-0.126869	Identifier . Identifier === String	-0.073232
+-0.534566	Identifier . Identifier Template )	-0.073232
+-0.310300	Identifier . Identifier Template Identifier	-0.073232
+-0.472389	Identifier : [ Identifier ,	-0.073232
+-0.583849	Identifier : [ Identifier ]	-0.073232
+-0.234837	Identifier = ( ( Identifier	-0.073232
+-0.848825	Identifier = Identifier ( (	-0.073232
+-0.454461	Identifier = Identifier ( Identifier	-0.073232
+-0.885612	Identifier = Identifier ( String	-0.073232
+-0.894406	Identifier = Identifier ( [	-0.073232
+-0.021394	Identifier = Identifier . Identifier	-0.073232
+-0.098007	Identifier = RegularExpression const Identifier	-0.073232
+-0.142138	Identifier = Template Identifier .	-0.073232
+-0.329664	Identifier === String ) {	-0.073232
+-0.284309	Identifier Identifier String const Identifier	-0.073232
+-0.376289	Identifier Identifier String const {	-0.073232
+-0.315337	Identifier Identifier String import Identifier	-0.073232
+-0.052295	Identifier String const Identifier =	-0.073232
+-0.033037	Identifier String const { Identifier	-0.073232
+-0.112922	Identifier String export default Identifier	-0.073232
+-0.231683	Identifier String import Identifier Identifier	-0.020877
+-0.044632	Identifier String import { Identifier	-0.073232
+-0.042824	Identifier Template ) if (	-0.073232
+-0.050001	Identifier Template ) return Identifier	-0.020877
+-0.132996	Identifier Template ) throw new	-0.073232
+-0.248870	Identifier Template ) } }	-0.073232
+-0.164598	Identifier Template , ( Identifier	-0.073232
+-0.011817	Identifier Template Identifier . Identifier	-0.073232
+-0.406122	Identifier Template Identifier Template )	-0.073232
+-0.232005	Identifier ] ) => {	-0.073232
+-0.184114	Identifier ] } = Identifier	-0.073232
+-0.197105	Identifier const Identifier = Identifier	-0.073232
+-0.272279	Identifier if ( Identifier )	-0.073232
+-0.234837	Identifier import { Identifier }	-0.073232
+-0.065401	Identifier } ) const Identifier	-0.073232
+-0.403506	Identifier } = Identifier .	-0.073232
+-0.573239	Identifier } Identifier String export	-0.073232
+-0.519505	Identifier } Identifier String import	-0.073232
+-0.090239	Identifier } else { Identifier	-0.073232
+-0.021394	Numeric ) Identifier . Identifier	-0.073232
+-0.142138	Numeric ) Template Identifier .	-0.073232
+-0.098007	Numeric ) Template const Identifier	-0.073232
+-0.155361	Numeric , Numeric ] )	-0.073232
+-0.065401	Numeric ] ) const Identifier	-0.073232
+-0.543443	RegularExpression const Identifier = (	-0.073232
+-0.146889	String ) , String )	-0.073232
+-0.351650	String ) Identifier ( Identifier	-0.073232
+-0.554963	String ) Identifier ( Template	-0.073232
+-0.028441	String ) const Identifier =	-0.073232
+-0.033037	String ) const { Identifier	-0.073232
+-0.283082	String ) { const {	-0.073232
+-0.197105	String const Identifier = Identifier	-0.073232
+-0.453120	String const { Identifier }	-0.073232
+-0.338018	String export default Identifier (	-0.073232
+-0.241567	String import Identifier Identifier String	-0.073232
+-0.234837	String import { Identifier }	-0.073232
+-0.053463	Template ) if ( Identifier	-0.073232
+-0.291416	Template ) return Identifier .	-0.073232
+-0.105313	Template ) throw new Identifier	-0.073232
+-0.484732	Template ) } } return	-0.073232
+-0.345110	Template , ( Identifier ,	-0.073232
+-0.286564	Template Identifier . Identifier (	-0.020877
+-0.854426	Template Identifier . Identifier Template	-0.073232
+-0.835837	Template Identifier Template ) if	-0.073232
+-0.748007	Template Identifier Template ) return	-0.073232
+-0.856889	Template Identifier Template ) throw	-0.073232
+-0.754274	Template Identifier Template ) }	-0.073232
+-0.205551	Template Identifier Template , (	-0.073232
+-0.456379	Template Identifier Template Identifier Template	-0.073232
+-0.197105	Template const Identifier = Identifier	-0.073232
+-0.542986	[ Identifier , Identifier ]	-0.073232
+-0.230645	[ Identifier ] } =	-0.073232
+-0.288148	[ Numeric , Numeric ]	-0.073232
+-0.296558	] ) => { Identifier	-0.073232
+-0.473109	] ) => { if	-0.073232
+-0.028441	] ) const Identifier =	-0.073232
+-0.672811	] } = Identifier const	-0.073232
+-0.683585	] } = Identifier if	-0.073232
+-0.224340	const Identifier = ( (	-0.073232
+-0.624595	const Identifier = Identifier (	-0.051527
+-0.475675	const Identifier = Identifier .	-0.020877
+-0.121798	const Identifier = RegularExpression const	-0.073232
+-0.104808	const Identifier = Template Identifier	-0.073232
+-0.133032	const { Identifier : [	-0.020877
+-0.445254	const { Identifier } =	-0.020877
+-0.174237	default Identifier ( Numeric )	-0.073232
+-0.044632	default Identifier import { Identifier	-0.073232
+-0.015828	else { Identifier . Identifier	-0.073232
+-0.387382	export default Identifier ( Numeric	-0.073232
+-0.097361	export default Identifier import {	-0.073232
+-0.105313	if ( Identifier && Identifier	-0.073232
+-0.674707	if ( Identifier ) Identifier	-0.073232
+-0.623348	if ( Identifier ) {	-0.073232
+-0.021615	if ( Identifier . Identifier	-0.073232
+-0.552783	import Identifier Identifier String const	-0.073232
+-0.519505	import Identifier Identifier String import	-0.073232
+-0.621873	import { Identifier } Identifier
+-0.075589	new Identifier ( Template Identifier	-0.073232
+-0.209423	return Identifier . Identifier (	-0.073232
+-0.294369	return Identifier } ) const	-0.073232
+-0.125172	return Identifier } else {	-0.073232
+-0.331390	throw new Identifier ( Template	-0.073232
+-0.283170	{ Identifier . Identifier (	-0.020877
+-0.139323	{ Identifier : [ Identifier	-0.073232
+-0.181828	{ Identifier } = Identifier	-0.073232
+-0.241567	{ Identifier } Identifier String	-0.073232
+-0.197105	{ const Identifier = Identifier	-0.073232
+-0.490823	{ const { Identifier :	-0.073232
+-0.919754	{ if ( Identifier &&	-0.073232
+-0.397916	{ if ( Identifier )	-0.073232
+-0.673110	{ if ( Identifier .	-0.073232
+-0.456921	{ return Identifier } else	-0.073232
+-0.028441	} ) const Identifier =	-0.073232
+-0.227046	} ) } , Numeric	-0.073232
+-0.467107	} ) } } )	-0.073232
+-0.609578	} ) } } ,	-0.073232
+-0.299827	} , Numeric ) Identifier	-0.020877
+-0.021394	} = Identifier . Identifier	-0.073232
+-0.098007	} = Identifier const Identifier	-0.073232
+-0.042824	} = Identifier if (	-0.073232
+-0.132996	} Identifier String export default	-0.073232
+-0.416634	} Identifier String import Identifier	-0.073232
+-0.308074	} Identifier String import {	-0.073232
+-0.490823	} const { Identifier :	-0.073232
+-0.201475	} else { Identifier .	-0.073232
+-0.460335	} if ( Identifier .	-0.073232
+-0.369808	} return Identifier } )	-0.073232
+-0.663164	} } ) } ,	-0.073232
+-0.392523	} } ) } }	-0.073232
+-0.237535	} } , Numeric )	-0.073232
+-0.305515	} } return Identifier }	-0.073232
+
+\6-grams:
+-0.447380	<s> import { Identifier } Identifier	-0.049830
+-0.165421	&& Identifier ) { Identifier .	-0.049830
+-0.159122	( ( ) => Identifier (	-0.049830
+-0.189351	( ( Identifier ) => {	-0.049830
+-0.144207	( ( [ Identifier , Identifier	-0.049830
+-0.168004	( ) ) { const Identifier	-0.049830
+-0.161399	( ) => Identifier ( Identifier	-0.049830
+-0.265359	( Identifier && Identifier ) {	-0.049830
+-0.109497	( Identifier ) ) export default	-0.049830
+-0.339059	( Identifier ) => { if	-0.030058
+-0.020366	( Identifier ) Identifier . Identifier	-0.030058
+-0.165421	( Identifier ) { Identifier .	-0.049830
+-0.041416	( Identifier ) { return Identifier	-0.049830
+-0.127529	( Identifier ) } const {	-0.049830
+-0.035896	( Identifier ) } if (	-0.049830
+-0.277052	( Identifier ) } } )	-0.049830
+-0.489907	( Identifier , Identifier ) =>	-0.049830
+-0.542671	( Identifier , Identifier ) const	-0.049830
+-0.522438	( Identifier , Identifier , (	-0.049830
+-0.328142	( Identifier , Identifier , Identifier	-0.049830
+-0.606604	( Identifier . Identifier ( String	-0.049830
+-0.266721	( Identifier . Identifier ) }	-0.049830
+-0.266862	( Identifier . Identifier , String	-0.049830
+-0.017993	( Identifier . Identifier . Identifier	-0.049830
+-0.104586	( Identifier . Identifier === String	-0.049830
+-0.116798	( Numeric ) Template Identifier .	-0.049830
+-0.081273	( Numeric ) Template const Identifier	-0.049830
+-0.120581	( String ) , String )	-0.049830
+-0.023904	( String ) const Identifier =	-0.049830
+-0.027743	( String ) const { Identifier	-0.049830
+-0.563364	( Template Identifier . Identifier Template	-0.049830
+-0.514140	( Template Identifier Template ) return	-0.049830
+-0.166564	( Template Identifier Template , (	-0.049830
+-0.346249	( Template Identifier Template Identifier Template	-0.049830
+-0.401041	( [ Identifier , Identifier ]	-0.049830
+-0.228925	( [ Numeric , Numeric ]	-0.049830
+-0.315096	) ) export default Identifier import	-0.049830
+-0.043756	) ) { const Identifier =	-0.049830
+-0.229323	) , String ) Identifier (	-0.049830
+-0.229632	) => Identifier ( Identifier )	-0.049830
+-0.013334	) => { Identifier . Identifier	-0.049830
+-0.050801	) => { if ( Identifier	-0.049830
+-0.145937	) Identifier ( Identifier , Identifier	-0.049830
+-0.516863	) Identifier ( Template Identifier Template	-0.049830
+-0.914718	) Identifier . Identifier ( (	-0.030058
+-0.497388	) Identifier . Identifier ( Identifier	-0.049830
+-0.227757	) Template Identifier . Identifier (	-0.049830
+-0.160027	) Template const Identifier = Identifier	-0.049830
+-0.563594	) const Identifier = Identifier (	-0.039832
+-0.100512	) const Identifier = RegularExpression const	-0.049830
+-0.086794	) const Identifier = Template Identifier	-0.049830
+-0.338924	) const { Identifier } =	-0.049830
+-0.080748	) export default Identifier import {	-0.049830
+-0.448214	) if ( Identifier ) {	-0.049830
+-0.169552	) return Identifier . Identifier (	-0.049830
+-0.260376	) throw new Identifier ( Template	-0.049830
+-0.225250	) { Identifier . Identifier (	-0.049830
+-0.160027	) { const Identifier = Identifier	-0.049830
+-0.368520	) { const { Identifier :	-0.049830
+-0.346605	) { return Identifier } else	-0.049830
+-0.440387	) } ) } } ,	-0.049830
+-0.237503	) } , Numeric ) Identifier	-0.049830
+-0.368520	) } const { Identifier :	-0.049830
+-0.348839	) } if ( Identifier .	-0.049830
+-0.583238	) } } ) } ,	-0.049830
+-0.377000	) } } ) } }	-0.049830
+-0.191055	) } } , Numeric )	-0.049830
+-0.241658	) } } return Identifier }	-0.049830
+-0.522768	, ( Identifier , Identifier )	-0.049830
+-0.574818	, ( Identifier , Identifier ,	-0.049830
+-0.519325	, Identifier ( Identifier ) =>	-0.049830
+-0.284310	, Identifier ) => { if	-0.049830
+-0.023904	, Identifier ) const Identifier =	-0.049830
+-0.270175	, Identifier , ( Identifier ,	-0.049830
+-0.161399	, Identifier , Identifier ( Identifier	-0.049830
+-0.396586	, Identifier , Identifier ) =>	-0.049830
+-0.186851	, Identifier ] ) => {	-0.049830
+-0.149916	, Identifier ] } = Identifier	-0.049830
+-0.018004	, Numeric ) Identifier . Identifier	-0.049830
+-0.054585	, Numeric ] ) const Identifier	-0.049830
+-0.343398	, String ) Identifier ( Identifier	-0.049830
+-0.504476	, String ) Identifier ( Template	-0.049830
+-0.235445	. Identifier ( ( ) =>	-0.049830
+-0.229908	. Identifier ( ) ) {	-0.049830
+-0.617492	. Identifier ( Identifier ) Identifier	-0.049830
+-0.677664	. Identifier ( Identifier ) }	-0.049830
+-0.145937	. Identifier ( Identifier , Identifier	-0.049830
+-0.018190	. Identifier ( Identifier . Identifier	-0.049830
+-0.422712	. Identifier ( Numeric ) Template	-0.049830
+-0.582369	. Identifier ( String ) ,	-0.049830
+-0.446431	. Identifier ( String ) const	-0.049830
+-0.255956	. Identifier ( Template Identifier .	-0.049830
+-0.644743	. Identifier ( Template Identifier Template	-0.049830
+-0.222778	. Identifier ) } ) }	-0.049830
+-0.244168	. Identifier , String ) Identifier	-0.049830
+-0.620254	. Identifier . Identifier ( )	-0.049830
+-0.259137	. Identifier === String ) {	-0.049830
+-0.041855	. Identifier Template ) return Identifier	-0.049830
+-0.009962	. Identifier Template Identifier . Identifier	-0.049830
+-0.401041	: [ Identifier , Identifier ]	-0.049830
+-0.185815	: [ Identifier ] } =	-0.049830
+-0.366520	= ( ( Identifier ) =>	-0.049830
+-0.160220	= Identifier ( ( [ Identifier	-0.049830
+-0.018190	= Identifier ( Identifier . Identifier	-0.049830
+-0.361184	= Identifier ( String ) const	-0.049830
+-0.169987	= Identifier ( [ Numeric ,	-0.049830
+-0.881429	= Identifier . Identifier ( String	-0.030058
+-0.686171	= Identifier . Identifier ( Template	-0.049830
+-0.160027	= Identifier const Identifier = Identifier	-0.049830
+-0.217171	= Identifier if ( Identifier )	-0.049830
+-0.401320	= RegularExpression const Identifier = (	-0.049830
+-0.227757	= Template Identifier . Identifier (	-0.049830
+-0.225185	=== String ) { const {	-0.049830
+-0.581099	=> Identifier ( Identifier ) )	-0.049830
+-0.225250	=> { Identifier . Identifier (	-0.049830
+-0.814310	=> { if ( Identifier &&	-0.049830
+-0.409299	=> { if ( Identifier )	-0.049830
+-0.636283	=> { if ( Identifier .	-0.049830
+-0.164784	Identifier && Identifier ) { Identifier	-0.049830
+-0.189819	Identifier ( ( ) => Identifier	-0.049830
+-0.223037	Identifier ( ( [ Identifier ,	-0.049830
+-0.246575	Identifier ( ) ) { const	-0.049830
+-0.253773	Identifier ( Identifier ) ) export	-0.049830
+-0.189351	Identifier ( Identifier ) => {	-0.049830
+-0.208633	Identifier ( Identifier ) Identifier .	-0.049830
+-0.723722	Identifier ( Identifier ) } const	-0.049830
+-0.735859	Identifier ( Identifier ) } if	-0.049830
+-0.516448	Identifier ( Identifier ) } }	-0.049830
+-0.532809	Identifier ( Identifier , Identifier )	-0.049830
+-0.627094	Identifier ( Identifier , Identifier ,	-0.049830
+-0.359237	Identifier ( Identifier . Identifier (	-0.049830
+-0.857028	Identifier ( Identifier . Identifier )	-0.049830
+-0.865184	Identifier ( Identifier . Identifier ,	-0.049830
+-0.295760	Identifier ( Numeric ) Template Identifier	-0.049830
+-0.461200	Identifier ( Numeric ) Template const	-0.049830
+-0.168141	Identifier ( String ) , String	-0.049830
+-0.188392	Identifier ( String ) const Identifier	-0.030058
+-0.489727	Identifier ( String ) const {	-0.049830
+-0.009962	Identifier ( Template Identifier . Identifier	-0.049830
+-0.566994	Identifier ( Template Identifier Template )	-0.049830
+-0.689892	Identifier ( Template Identifier Template ,	-0.049830
+-0.404192	Identifier ( Template Identifier Template Identifier	-0.030058
+-0.169723	Identifier ( [ Numeric , Numeric	-0.049830
+-0.093358	Identifier ) ) export default Identifier	-0.049830
+-0.041148	Identifier ) => { if (	-0.030058
+-0.171651	Identifier ) Identifier . Identifier (	-0.049830
+-0.571719	Identifier ) const Identifier = Template	-0.049830
+-0.015072	Identifier ) { Identifier . Identifier	-0.030058
+-0.241658	Identifier ) { return Identifier }	-0.049830
+-0.234796	Identifier ) } ) } }	-0.049830
+-0.027743	Identifier ) } const { Identifier	-0.049830
+-0.044724	Identifier ) } if ( Identifier	-0.049830
+-0.225727	Identifier ) } } ) }	-0.049830
+-0.145937	Identifier , ( Identifier , Identifier	-0.049830
+-0.229632	Identifier , Identifier ( Identifier )	-0.049830
+-0.218007	Identifier , Identifier ) => {	-0.030058
+-0.054585	Identifier , Identifier ) const Identifier	-0.049830
+-0.134603	Identifier , Identifier , ( Identifier	-0.049830
+-0.525646	Identifier , Identifier , Identifier (	-0.049830
+-0.519885	Identifier , Identifier , Identifier )	-0.049830
+-0.235445	Identifier , Identifier ] ) =>	-0.049830
+-0.185815	Identifier , Identifier ] } =	-0.049830
+-0.229323	Identifier , String ) Identifier (	-0.049830
+-0.310279	Identifier . Identifier ( ( )	-0.049830
+-0.240798	Identifier . Identifier ( ) )	-0.049830
+-0.437930	Identifier . Identifier ( Identifier )	-0.049830
+-0.687735	Identifier . Identifier ( Identifier ,	-0.049830
+-0.650074	Identifier . Identifier ( Identifier .	-0.049830
+-0.142185	Identifier . Identifier ( Numeric )	-0.049830
+-0.129224	Identifier . Identifier ( String )	-0.049830
+-0.071731	Identifier . Identifier ( Template Identifier	-0.036549
+-0.350286	Identifier . Identifier ) } )	-0.049830
+-0.120581	Identifier . Identifier , String )	-0.049830
+-0.169552	Identifier . Identifier . Identifier (	-0.049830
+-0.112385	Identifier . Identifier === String )	-0.049830
+-0.362866	Identifier . Identifier Template ) return	-0.049830
+-0.160693	Identifier . Identifier Template Identifier .	-0.049830
+-0.144207	Identifier : [ Identifier , Identifier	-0.049830
+-0.206378	Identifier : [ Identifier ] }	-0.049830
+-0.198487	Identifier = ( ( Identifier )	-0.049830
+-0.322296	Identifier = Identifier ( ( [	-0.049830
+-0.354137	Identifier = Identifier ( Identifier .	-0.049830
+-0.112459	Identifier = Identifier ( String )	-0.049830
+-0.216827	Identifier = Identifier ( [ Numeric	-0.049830
+-0.171651	Identifier = Identifier . Identifier (	-0.049830
+-0.043756	Identifier = RegularExpression const Identifier =	-0.049830
+-0.009962	Identifier = Template Identifier . Identifier	-0.049830
+-0.246575	Identifier === String ) { const	-0.049830
+-0.043756	Identifier Identifier String const Identifier =	-0.049830
+-0.027743	Identifier Identifier String const { Identifier	-0.049830
+-0.186606	Identifier Identifier String import Identifier Identifier	-0.049830
+-0.160027	Identifier String const Identifier = Identifier	-0.049830
+-0.344110	Identifier String const { Identifier }	-0.049830
+-0.265121	Identifier String export default Identifier (	-0.049830
+-0.226659	Identifier String import Identifier Identifier String	-0.036549
+-0.189006	Identifier String import { Identifier }	-0.049830
+-0.044724	Identifier Template ) if ( Identifier	-0.049830
+-0.272350	Identifier Template ) return Identifier .	-0.030058
+-0.087202	Identifier Template ) throw new Identifier	-0.049830
+-0.364627	Identifier Template ) } } return	-0.049830
+-0.270175	Identifier Template , ( Identifier ,	-0.049830
+-0.563364	Identifier Template Identifier . Identifier Template	-0.049830
+-0.756924	Identifier Template Identifier Template ) if	-0.049830
+-0.771648	Identifier Template Identifier Template ) throw	-0.049830
+-0.697914	Identifier Template Identifier Template ) }	-0.049830
+-0.297249	Identifier ] ) => { Identifier	-0.049830
+-0.441520	Identifier ] ) => { if	-0.049830
+-0.589996	Identifier ] } = Identifier const	-0.049830
+-0.597490	Identifier ] } = Identifier if	-0.049830
+-0.358802	Identifier const Identifier = Identifier .	-0.049830
+-0.476453	Identifier if ( Identifier ) Identifier	-0.049830
+-0.447380	Identifier import { Identifier } Identifier	-0.049830
+-0.023904	Identifier } ) const Identifier =	-0.049830
+-0.018004	Identifier } = Identifier . Identifier	-0.049830
+-0.109497	Identifier } Identifier String export default	-0.049830
+-0.396553	Identifier } Identifier String import Identifier	-0.049830
+-0.306974	Identifier } Identifier String import {	-0.049830
+-0.163413	Identifier } else { Identifier .	-0.049830
+-0.171651	Numeric ) Identifier . Identifier (	-0.049830
+-0.009962	Numeric ) Template Identifier . Identifier	-0.049830
+-0.043756	Numeric ) Template const Identifier =	-0.049830
+-0.216662	Numeric , Numeric ] ) const	-0.049830
+-0.023904	Numeric ] ) const Identifier =	-0.049830
+-0.181003	RegularExpression const Identifier = ( (	-0.049830
+-0.244168	String ) , String ) Identifier	-0.049830
+-0.371636	String ) Identifier ( Identifier ,	-0.049830
+-0.062962	String ) Identifier ( Template Identifier	-0.049830
+-0.218101	String ) const Identifier = Identifier	-0.049830
+-0.344110	String ) const { Identifier }	-0.049830
+-0.027743	String ) { const { Identifier	-0.049830
+-0.358802	String const Identifier = Identifier .	-0.049830
+-0.338924	String const { Identifier } =	-0.049830
+-0.299799	String export default Identifier ( Numeric	-0.049830
+-0.502835	String import Identifier Identifier String const	-0.049830
+-0.477542	String import Identifier Identifier String import	-0.049830
+-0.447380	String import { Identifier } Identifier	-0.049830
+-0.217171	Template ) if ( Identifier )	-0.049830
+-0.017993	Template ) return Identifier . Identifier	-0.049830
+-0.159122	Template ) throw new Identifier (	-0.049830
+-0.041416	Template ) } } return Identifier	-0.049830
+-0.145937	Template , ( Identifier , Identifier	-0.049830
+-0.880803	Template Identifier . Identifier ( Numeric	-0.030058
+-0.489046	Template Identifier . Identifier Template )	-0.049830
+-0.308848	Template Identifier . Identifier Template Identifier	-0.049830
+-0.035896	Template Identifier Template ) if (	-0.049830
+-0.041855	Template Identifier Template ) return Identifier	-0.049830
+-0.109497	Template Identifier Template ) throw new	-0.049830
+-0.199632	Template Identifier Template ) } }	-0.049830
+-0.134603	Template Identifier Template , ( Identifier	-0.049830
+-0.312652	Template Identifier Template Identifier Template )	-0.049830
+-0.448917	Template const Identifier = Identifier (	-0.049830
+-0.384362	[ Identifier , Identifier ] )	-0.049830
+-0.413774	[ Identifier , Identifier ] }	-0.049830
+-0.149916	[ Identifier ] } = Identifier	-0.049830
+-0.127303	[ Numeric , Numeric ] )	-0.049830
+-0.163413	] ) => { Identifier .	-0.049830
+-0.036274	] ) => { if (	-0.049830
+-0.581238	] ) const Identifier = RegularExpression	-0.049830
+-0.081273	] } = Identifier const Identifier	-0.049830
+-0.035896	] } = Identifier if (	-0.049830
+-0.189006	const Identifier = ( ( Identifier	-0.049830
+-0.804585	const Identifier = Identifier ( (	-0.049830
+-0.480603	const Identifier = Identifier ( Identifier	-0.030058
+-0.833840	const Identifier = Identifier ( String	-0.049830
+-0.840758	const Identifier = Identifier ( [	-0.049830
+-0.020366	const Identifier = Identifier . Identifier	-0.030058
+-0.081273	const Identifier = RegularExpression const Identifier	-0.049830
+-0.116798	const Identifier = Template Identifier .	-0.049830
+-0.131681	const { Identifier : [ Identifier	-0.049830
+-0.171357	const { Identifier } = Identifier	-0.030058
+-0.429468	default Identifier ( Numeric ) </s>
+-0.189006	default Identifier import { Identifier }	-0.049830
+-0.225250	else { Identifier . Identifier (	-0.049830
+-0.142185	export default Identifier ( Numeric )	-0.049830
+-0.037399	export default Identifier import { Identifier	-0.049830
+-0.175253	if ( Identifier && Identifier )	-0.049830
+-0.208633	if ( Identifier ) Identifier .	-0.049830
+-0.282634	if ( Identifier ) { Identifier	-0.049830
+-0.562192	if ( Identifier ) { return	-0.049830
+-0.754138	if ( Identifier . Identifier .	-0.049830
+-0.846879	if ( Identifier . Identifier ===	-0.049830
+-0.286862	import Identifier Identifier String const Identifier	-0.049830
+-0.363722	import Identifier Identifier String const {	-0.049830
+-0.248800	import Identifier Identifier String import Identifier	-0.049830
+-0.241567	import { Identifier } Identifier String	-0.011932
+-0.516863	new Identifier ( Template Identifier Template	-0.049830
+-0.380515	return Identifier . Identifier ( Identifier	-0.049830
+-0.054585	return Identifier } ) const Identifier	-0.049830
+-0.074947	return Identifier } else { Identifier	-0.049830
+-0.062962	throw new Identifier ( Template Identifier	-0.049830
+-0.497388	{ Identifier . Identifier ( Identifier	-0.030058
+-0.735668	{ Identifier . Identifier ( Template	-0.030058
+-0.440955	{ Identifier : [ Identifier ,	-0.049830
+-0.526020	{ Identifier : [ Identifier ]	-0.049830
+-0.310869	{ Identifier } = Identifier .	-0.049830
+-0.518149	{ Identifier } Identifier String export	-0.049830
+-0.477542	{ Identifier } Identifier String import	-0.049830
+-0.448917	{ const Identifier = Identifier (	-0.049830
+-0.109526	{ const { Identifier : [	-0.049830
+-0.087202	{ if ( Identifier && Identifier	-0.049830
+-0.448214	{ if ( Identifier ) {	-0.049830
+-0.018190	{ if ( Identifier . Identifier	-0.049830
+-0.103224	{ return Identifier } else {	-0.049830
+-0.218101	} ) const Identifier = Identifier	-0.049830
+-0.191055	} ) } , Numeric )	-0.049830
+-0.225727	} ) } } ) }	-0.049830
+-0.183070	} ) } } , Numeric	-0.049830
+-0.241112	} , Numeric ) Identifier .	-0.030058
+-0.171651	} = Identifier . Identifier (	-0.049830
+-0.043756	} = Identifier const Identifier =	-0.049830
+-0.044724	} = Identifier if ( Identifier	-0.049830
+-0.093358	} Identifier String export default Identifier	-0.049830
+-0.186606	} Identifier String import Identifier Identifier	-0.049830
+-0.037399	} Identifier String import { Identifier	-0.049830
+-0.109526	} const { Identifier : [	-0.049830
+-0.013334	} else { Identifier . Identifier	-0.049830
+-0.018190	} if ( Identifier . Identifier	-0.049830
+-0.233501	} return Identifier } ) const	-0.049830
+-0.183070	} } ) } , Numeric	-0.049830
+-0.353253	} } ) } } )	-0.049830
+-0.237503	} } , Numeric ) Identifier	-0.049830
+-0.287588	} } return Identifier } )	-0.049830
+
+\7-grams:
+-0.207878	<s> import { Identifier } Identifier String	-0.128284
+-0.013413	&& Identifier ) { Identifier . Identifier	-0.128284
+-0.140710	( ( ) => Identifier ( Identifier	-0.354759
+-0.286657	( ( Identifier ) => { if	-0.128284
+-0.334885	( ( [ Identifier , Identifier ]	-0.354759
+-0.038794	( ) ) { const Identifier =	-0.128284
+-0.198008	( ) => Identifier ( Identifier )	-0.354759
+-0.143586	( Identifier && Identifier ) { Identifier	-0.128284
+-0.082212	( Identifier ) ) export default Identifier	-0.354759
+-0.038272	( Identifier ) => { if (	-0.354759
+-0.157797	( Identifier ) Identifier . Identifier (	-0.128284
+-0.013413	( Identifier ) { Identifier . Identifier	-0.075086
+-0.207954	( Identifier ) { return Identifier }	-0.128284
+-0.024648	( Identifier ) } const { Identifier	-0.128284
+-0.039647	( Identifier ) } if ( Identifier	-0.128284
+-0.194768	( Identifier ) } } ) }	-0.128284
+-0.188349	( Identifier , Identifier ) => {	-0.128284
+-0.048325	( Identifier , Identifier ) const Identifier	-0.128284
+-0.117826	( Identifier , Identifier , ( Identifier	-0.128284
+-0.494876	( Identifier , Identifier , Identifier (	-0.128284
+-0.490085	( Identifier , Identifier , Identifier )	-0.128284
+-0.113208	( Identifier . Identifier ( String )	-0.128284
+-0.295505	( Identifier . Identifier ) } )	-0.128284
+-0.105770	( Identifier . Identifier , String )	-0.128284
+-0.147631	( Identifier . Identifier . Identifier (	-0.128284
+-0.098699	( Identifier . Identifier === String )	-0.128284
+-0.008871	( Numeric ) Template Identifier . Identifier	-0.128284
+-0.038794	( Numeric ) Template const Identifier =	-0.128284
+-0.210023	( String ) , String ) Identifier	-0.128284
+-0.188427	( String ) const Identifier = Identifier	-0.075086
+-0.290644	( String ) const { Identifier }	-0.075086
+-0.262611	( Template Identifier . Identifier Template Identifier	-0.128284
+-0.037118	( Template Identifier Template ) return Identifier	-0.354759
+-0.117826	( Template Identifier Template , ( Identifier	-0.128284
+-0.265658	( Template Identifier Template Identifier Template )	-0.128284
+-0.322059	( [ Identifier , Identifier ] )	-0.354759
+-0.111557	( [ Numeric , Numeric ] )	-0.128284
+-0.071233	) ) export default Identifier import {	-0.354759
+-0.139543	) ) { const Identifier = Identifier	-0.128284
+-0.290082	) , String ) Identifier ( Identifier	-0.128284
+-0.465564	) => Identifier ( Identifier ) )	-0.354759
+-0.194372	) => { Identifier . Identifier (	-0.128284
+-0.762300	) => { if ( Identifier &&	-0.128284
+-0.416160	) => { if ( Identifier )	-0.075086
+-0.615928	) => { if ( Identifier .	-0.128284
+-0.496461	) Identifier ( Identifier , Identifier ,	-0.128284
+-0.536872	) Identifier ( Template Identifier Template ,	-0.128284
+-0.280997	) Identifier . Identifier ( ( )	-0.354759
+-0.420826	) Identifier . Identifier ( Identifier )	-0.128284
+-0.595558	) Identifier . Identifier ( Identifier .	-0.128284
+-0.646431	) Template Identifier . Identifier ( Numeric	-0.128284
+-0.371057	) Template const Identifier = Identifier (	-0.128284
+-0.753214	) const Identifier = Identifier ( (	-0.354759
+-0.793550	) const Identifier = Identifier ( String	-0.128284
+-0.799294	) const Identifier = Identifier ( [	-0.128284
+-0.071691	) const Identifier = RegularExpression const Identifier	-0.128284
+-0.102509	) const Identifier = Template Identifier .	-0.128284
+-0.149160	) const { Identifier } = Identifier	-0.075086
+-0.033186	) export default Identifier import { Identifier	-0.354759
+-0.452556	) if ( Identifier ) { return	-0.128284
+-0.319083	) return Identifier . Identifier ( Identifier	-0.075086
+-0.055679	) throw new Identifier ( Template Identifier	-0.128284
+-0.471276	) { Identifier . Identifier ( Identifier	-0.128284
+-0.661401	) { Identifier . Identifier ( Template	-0.075086
+-0.371057	) { const Identifier = Identifier (	-0.128284
+-0.096227	) { const { Identifier : [	-0.128284
+-0.090773	) { return Identifier } else {	-0.128284
+-0.159063	) } ) } } , Numeric	-0.128284
+-0.207503	) } , Numeric ) Identifier .	-0.128284
+-0.096227	) } const { Identifier : [	-0.128284
+-0.016181	) } if ( Identifier . Identifier	-0.128284
+-0.159063	) } } ) } , Numeric	-0.128284
+-0.297835	) } } ) } } )	-0.128284
+-0.204522	) } } , Numeric ) Identifier	-0.128284
+-0.245488	) } } return Identifier } )	-0.128284
+-0.401233	, ( Identifier , Identifier ) =>	-0.128284
+-0.278007	, ( Identifier , Identifier , Identifier	-0.128284
+-0.164356	, Identifier ( Identifier ) => {	-0.128284
+-0.036495	, Identifier ) => { if (	-0.354759
+-0.459133	, Identifier ) const Identifier = Template	-0.128284
+-0.127530	, Identifier , ( Identifier , Identifier	-0.128284
+-0.198008	, Identifier , Identifier ( Identifier )	-0.128284
+-0.188349	, Identifier , Identifier ) => {	-0.128284
+-0.297657	, Identifier ] ) => { Identifier	-0.128284
+-0.423902	, Identifier ] ) => { if	-0.128284
+-0.471624	, Identifier ] } = Identifier const	-0.128284
+-0.149410	, Numeric ) Identifier . Identifier (	-0.128284
+-0.021248	, Numeric ] ) const Identifier =	-0.128284
+-0.312196	, String ) Identifier ( Identifier ,	-0.128284
+-0.055679	, String ) Identifier ( Template Identifier	-0.128284
+-0.164750	. Identifier ( ( ) => Identifier	-0.354759
+-0.212006	. Identifier ( ) ) { const	-0.128284
+-0.180529	. Identifier ( Identifier ) Identifier .	-0.128284
+-0.689148	. Identifier ( Identifier ) } const	-0.128284
+-0.699117	. Identifier ( Identifier ) } if	-0.128284
+-0.512009	. Identifier ( Identifier ) } }	-0.128284
+-0.500817	. Identifier ( Identifier , Identifier )	-0.128284
+-0.577386	. Identifier ( Identifier , Identifier ,	-0.128284
+-0.633911	. Identifier ( Identifier . Identifier )	-0.128284
+-0.296328	. Identifier ( Numeric ) Template Identifier	-0.128284
+-0.440695	. Identifier ( Numeric ) Template const	-0.128284
+-0.146434	. Identifier ( String ) , String	-0.128284
+-0.199283	. Identifier ( String ) const Identifier	-0.354759
+-0.464836	. Identifier ( String ) const {	-0.075086
+-0.008871	. Identifier ( Template Identifier . Identifier	-0.128284
+-0.528937	. Identifier ( Template Identifier Template )	-0.354759
+-0.391749	. Identifier ( Template Identifier Template Identifier	-0.354759
+-0.202284	. Identifier ) } ) } }	-0.128284
+-0.197751	. Identifier , String ) Identifier (	-0.128284
+-0.207243	. Identifier . Identifier ( ) )	-0.128284
+-0.212006	. Identifier === String ) { const	-0.128284
+-0.233116	. Identifier Template ) return Identifier .	-0.128284
+-0.453368	. Identifier Template Identifier . Identifier Template	-0.128284
+-0.344600	: [ Identifier , Identifier ] }	-0.128284
+-0.130929	: [ Identifier ] } = Identifier	-0.128284
+-0.164356	= ( ( Identifier ) => {	-0.128284
+-0.192534	= Identifier ( ( [ Identifier ,	-0.354759
+-0.352537	= Identifier ( Identifier . Identifier (	-0.128284
+-0.754944	= Identifier ( Identifier . Identifier ,	-0.128284
+-0.163549	= Identifier ( String ) const Identifier	-0.128284
+-0.147776	= Identifier ( [ Numeric , Numeric	-0.128284
+-0.119274	= Identifier . Identifier ( String )	-0.296935
+-0.063357	= Identifier . Identifier ( Template Identifier	-0.128284
+-0.302184	= Identifier const Identifier = Identifier .	-0.128284
+-0.391412	= Identifier if ( Identifier ) Identifier	-0.128284
+-0.157319	= RegularExpression const Identifier = ( (	-0.128284
+-0.646431	= Template Identifier . Identifier ( Numeric	-0.128284
+-0.024648	=== String ) { const { Identifier	-0.128284
+-0.217924	=> Identifier ( Identifier ) ) export	-0.354759
+-0.406658	=> { Identifier . Identifier ( Identifier	-0.128284
+-0.076858	=> { if ( Identifier && Identifier	-0.128284
+-0.370533	=> { if ( Identifier ) {	-0.075086
+-0.016181	=> { if ( Identifier . Identifier	-0.128284
+-0.144127	Identifier && Identifier ) { Identifier .	-0.128284
+-0.138773	Identifier ( ( ) => Identifier (	-0.354759
+-0.126051	Identifier ( ( [ Identifier , Identifier	-0.354759
+-0.146318	Identifier ( ) ) { const Identifier	-0.128284
+-0.096203	Identifier ( Identifier ) ) export default	-0.354759
+-0.286657	Identifier ( Identifier ) => { if	-0.128284
+-0.018111	Identifier ( Identifier ) Identifier . Identifier	-0.128284
+-0.111751	Identifier ( Identifier ) } const {	-0.128284
+-0.031858	Identifier ( Identifier ) } if (	-0.128284
+-0.236942	Identifier ( Identifier ) } } )	-0.128284
+-0.438941	Identifier ( Identifier , Identifier ) const	-0.128284
+-0.492209	Identifier ( Identifier , Identifier , (	-0.128284
+-0.325120	Identifier ( Identifier , Identifier , Identifier	-0.128284
+-0.482829	Identifier ( Identifier . Identifier ( String	-0.128284
+-0.228525	Identifier ( Identifier . Identifier ) }	-0.128284
+-0.228640	Identifier ( Identifier . Identifier , String	-0.128284
+-0.102509	Identifier ( Numeric ) Template Identifier .	-0.128284
+-0.071691	Identifier ( Numeric ) Template const Identifier	-0.128284
+-0.105770	Identifier ( String ) , String )	-0.128284
+-0.022264	Identifier ( String ) const Identifier =	-0.075086
+-0.024648	Identifier ( String ) const { Identifier	-0.075086
+-0.453368	Identifier ( Template Identifier . Identifier Template	-0.128284
+-0.418714	Identifier ( Template Identifier Template ) return	-0.354759
+-0.145097	Identifier ( Template Identifier Template , (	-0.128284
+-0.312204	Identifier ( Template Identifier Template Identifier Template	-0.075086
+-0.197421	Identifier ( [ Numeric , Numeric ]	-0.128284
+-0.267612	Identifier ) ) export default Identifier import	-0.354759
+-0.047212	Identifier ) => { if ( Identifier	-0.087787
+-0.788596	Identifier ) Identifier . Identifier ( (	-0.128284
+-0.471276	Identifier ) Identifier . Identifier ( Identifier	-0.128284
+-0.076502	Identifier ) const Identifier = Template Identifier	-0.128284
+-0.205944	Identifier ) { Identifier . Identifier (	-0.087787
+-0.292609	Identifier ) { return Identifier } else	-0.128284
+-0.364684	Identifier ) } ) } } ,	-0.128284
+-0.309771	Identifier ) } const { Identifier :	-0.128284
+-0.294367	Identifier ) } if ( Identifier .	-0.128284
+-0.316361	Identifier ) } } ) } }	-0.128284
+-0.424871	Identifier , ( Identifier , Identifier )	-0.128284
+-0.422418	Identifier , Identifier ( Identifier ) =>	-0.128284
+-0.258260	Identifier , Identifier ) => { if	-0.354759
+-0.021248	Identifier , Identifier ) const Identifier =	-0.128284
+-0.231343	Identifier , Identifier , ( Identifier ,	-0.128284
+-0.140710	Identifier , Identifier , Identifier ( Identifier	-0.128284
+-0.331470	Identifier , Identifier , Identifier ) =>	-0.128284
+-0.162251	Identifier , Identifier ] ) => {	-0.128284
+-0.130929	Identifier , Identifier ] } = Identifier	-0.128284
+-0.411775	Identifier , String ) Identifier ( Template	-0.128284
+-0.202821	Identifier . Identifier ( ( ) =>	-0.354759
+-0.198236	Identifier . Identifier ( ) ) {	-0.128284
+-0.569733	Identifier . Identifier ( Identifier ) Identifier	-0.128284
+-0.617107	Identifier . Identifier ( Identifier ) }	-0.128284
+-0.127530	Identifier . Identifier ( Identifier , Identifier	-0.128284
+-0.016181	Identifier . Identifier ( Identifier . Identifier	-0.128284
+-0.351379	Identifier . Identifier ( Numeric ) Template	-0.128284
+-0.541454	Identifier . Identifier ( String ) ,	-0.128284
+-0.428103	Identifier . Identifier ( String ) const	-0.166558
+-0.262771	Identifier . Identifier ( Template Identifier .	-0.128284
+-0.597071	Identifier . Identifier ( Template Identifier Template	-0.354759
+-0.192318	Identifier . Identifier ) } ) }	-0.128284
+-0.210023	Identifier . Identifier , String ) Identifier	-0.128284
+-0.491934	Identifier . Identifier . Identifier ( )	-0.128284
+-0.222322	Identifier . Identifier === String ) {	-0.128284
+-0.037118	Identifier . Identifier Template ) return Identifier	-0.128284
+-0.008871	Identifier . Identifier Template Identifier . Identifier	-0.128284
+-0.334885	Identifier : [ Identifier , Identifier ]	-0.128284
+-0.161378	Identifier : [ Identifier ] } =	-0.128284
+-0.308212	Identifier = ( ( Identifier ) =>	-0.128284
+-0.139707	Identifier = Identifier ( ( [ Identifier	-0.354759
+-0.016181	Identifier = Identifier ( Identifier . Identifier	-0.128284
+-0.304047	Identifier = Identifier ( String ) const	-0.128284
+-0.148000	Identifier = Identifier ( [ Numeric ,	-0.128284
+-0.766115	Identifier = Identifier . Identifier ( String	-0.128284
+-0.623690	Identifier = Identifier . Identifier ( Template	-0.128284
+-0.335099	Identifier = RegularExpression const Identifier = (	-0.128284
+-0.196453	Identifier = Template Identifier . Identifier (	-0.128284
+-0.194318	Identifier === String ) { const {	-0.128284
+-0.139543	Identifier Identifier String const Identifier = Identifier	-0.128284
+-0.290644	Identifier Identifier String const { Identifier }	-0.128284
+-0.195542	Identifier Identifier String import Identifier Identifier String	-0.265500
+-0.302184	Identifier String const Identifier = Identifier .	-0.128284
+-0.286550	Identifier String const { Identifier } =	-0.128284
+-0.255343	Identifier String export default Identifier ( Numeric	-0.128284
+-0.488189	Identifier String import Identifier Identifier String const	-0.128284
+-0.455049	Identifier String import Identifier Identifier String import	-0.075086
+-0.369912	Identifier String import { Identifier } Identifier	-0.354759
+-0.187653	Identifier Template ) if ( Identifier )	-0.128284
+-0.016767	Identifier Template ) return Identifier . Identifier	-0.075086
+-0.138773	Identifier Template ) throw new Identifier (	-0.128284
+-0.036731	Identifier Template ) } } return Identifier	-0.128284
+-0.127530	Identifier Template , ( Identifier , Identifier	-0.128284
+-0.400607	Identifier Template Identifier . Identifier Template )	-0.128284
+-0.031858	Identifier Template Identifier Template ) if (	-0.128284
+-0.096203	Identifier Template Identifier Template ) throw new	-0.128284
+-0.172994	Identifier Template Identifier Template ) } }	-0.128284
+-0.142422	Identifier ] ) => { Identifier .	-0.128284
+-0.032192	Identifier ] ) => { if (	-0.128284
+-0.071691	Identifier ] } = Identifier const Identifier	-0.128284
+-0.031858	Identifier ] } = Identifier if (	-0.128284
+-0.018111	Identifier const Identifier = Identifier . Identifier	-0.128284
+-0.180529	Identifier if ( Identifier ) Identifier .	-0.128284
+-0.207878	Identifier import { Identifier } Identifier String	-0.128284
+-0.188427	Identifier } ) const Identifier = Identifier	-0.128284
+-0.149410	Identifier } = Identifier . Identifier (	-0.200025
+-0.082212	Identifier } Identifier String export default Identifier	-0.128284
+-0.162044	Identifier } Identifier String import Identifier Identifier	-0.354759
+-0.033186	Identifier } Identifier String import { Identifier	-0.354759
+-0.011869	Identifier } else { Identifier . Identifier	-0.128284
+-0.788596	Numeric ) Identifier . Identifier ( (	-0.128284
+-0.471276	Numeric ) Identifier . Identifier ( Identifier	-0.128284
+-0.196453	Numeric ) Template Identifier . Identifier (	-0.128284
+-0.139543	Numeric ) Template const Identifier = Identifier	-0.128284
+-0.048325	Numeric , Numeric ] ) const Identifier	-0.128284
+-0.465659	Numeric ] ) const Identifier = RegularExpression	-0.128284
+-0.164066	RegularExpression const Identifier = ( ( Identifier	-0.128284
+-0.197751	String ) , String ) Identifier (	-0.128284
+-0.127530	String ) Identifier ( Identifier , Identifier	-0.128284
+-0.420660	String ) Identifier ( Template Identifier Template	-0.128284
+-0.453526	String ) const Identifier = Identifier (	-0.128284
+-0.286550	String ) const { Identifier } =	-0.075086
+-0.309771	String ) { const { Identifier :	-0.128284
+-0.018111	String const Identifier = Identifier . Identifier	-0.128284
+-0.149160	String const { Identifier } = Identifier	-0.128284
+-0.124322	String export default Identifier ( Numeric )	-0.128284
+-0.288376	String import Identifier Identifier String const Identifier	-0.128284
+-0.356472	String import Identifier Identifier String const {	-0.128284
+-0.213837	String import Identifier Identifier String import Identifier	-0.075086
+-0.207878	String import { Identifier } Identifier String	-0.354759
+-0.370533	Template ) if ( Identifier ) {	-0.128284
+-0.147631	Template ) return Identifier . Identifier (	-0.075086
+-0.223337	Template ) throw new Identifier ( Template	-0.128284
+-0.207954	Template ) } } return Identifier }	-0.128284
+-0.461262	Template , ( Identifier , Identifier ,	-0.128284
+-0.131079	Template Identifier . Identifier ( Numeric )	-0.354759
+-0.305362	Template Identifier . Identifier Template ) return	-0.128284
+-0.140109	Template Identifier . Identifier Template Identifier .	-0.128284
+-0.039647	Template Identifier Template ) if ( Identifier	-0.128284
+-0.233116	Template Identifier Template ) return Identifier .	-0.354759
+-0.076858	Template Identifier Template ) throw new Identifier	-0.128284
+-0.306736	Template Identifier Template ) } } return	-0.128284
+-0.231343	Template Identifier Template , ( Identifier ,	-0.128284
+-0.716299	Template Identifier Template Identifier Template ) if	-0.128284
+-0.728215	Template Identifier Template Identifier Template ) throw	-0.128284
+-0.667788	Template Identifier Template Identifier Template ) }	-0.128284
+-0.394450	Template const Identifier = Identifier ( Identifier	-0.128284
+-0.202821	[ Identifier , Identifier ] ) =>	-0.354759
+-0.161378	[ Identifier , Identifier ] } =	-0.128284
+-0.476698	[ Identifier ] } = Identifier if	-0.128284
+-0.187229	[ Numeric , Numeric ] ) const	-0.128284
+-0.011869	] ) => { Identifier . Identifier	-0.128284
+-0.044998	] ) => { if ( Identifier	-0.128284
+-0.088423	] ) const Identifier = RegularExpression const	-0.128284
+-0.038794	] } = Identifier const Identifier =	-0.128284
+-0.039647	] } = Identifier if ( Identifier	-0.128284
+-0.172033	const Identifier = ( ( Identifier )	-0.128284
+-0.273356	const Identifier = Identifier ( ( [	-0.354759
+-0.319001	const Identifier = Identifier ( Identifier .	-0.354759
+-0.098762	const Identifier = Identifier ( String )	-0.128284
+-0.187366	const Identifier = Identifier ( [ Numeric	-0.128284
+-0.157797	const Identifier = Identifier . Identifier (	-0.128284
+-0.038794	const Identifier = RegularExpression const Identifier =	-0.128284
+-0.008871	const Identifier = Template Identifier . Identifier	-0.128284
+-0.423417	const { Identifier : [ Identifier ,	-0.128284
+-0.495186	const { Identifier : [ Identifier ]	-0.128284
+-0.281512	const { Identifier } = Identifier .	-0.200025
+-0.369912	default Identifier import { Identifier } Identifier	-0.354759
+-0.564997	else { Identifier . Identifier ( Template	-0.128284
+-0.356481	export default Identifier ( Numeric ) </s>
+-0.164065	export default Identifier import { Identifier }	-0.354759
+-0.227413	if ( Identifier && Identifier ) {	-0.128284
+-0.018111	if ( Identifier ) Identifier . Identifier	-0.128284
+-0.144127	if ( Identifier ) { Identifier .	-0.075086
+-0.036731	if ( Identifier ) { return Identifier	-0.128284
+-0.016007	if ( Identifier . Identifier . Identifier	-0.128284
+-0.091953	if ( Identifier . Identifier === String	-0.128284
+-0.038794	import Identifier Identifier String const Identifier =	-0.128284
+-0.024648	import Identifier Identifier String const { Identifier	-0.128284
+-0.162044	import Identifier Identifier String import Identifier Identifier	-0.075086
+-0.491920	import { Identifier } Identifier String export	-0.128284
+-0.489474	import { Identifier } Identifier String import	-0.354759
+-0.337296	new Identifier ( Template Identifier Template Identifier	-0.128284
+-0.362843	return Identifier . Identifier ( Identifier )	-0.075086
+-0.021248	return Identifier } ) const Identifier =	-0.128284
+-0.142422	return Identifier } else { Identifier .	-0.128284
+-0.420660	throw new Identifier ( Template Identifier Template	-0.128284
+-0.587729	{ Identifier . Identifier ( Identifier ,	-0.354759
+-0.066546	{ Identifier . Identifier ( Template Identifier	-0.087787
+-0.126051	{ Identifier : [ Identifier , Identifier	-0.128284
+-0.178643	{ Identifier : [ Identifier ] }	-0.128284
+-0.016016	{ Identifier } = Identifier . Identifier	-0.200025
+-0.096203	{ Identifier } Identifier String export default	-0.128284
+-0.385123	{ Identifier } Identifier String import Identifier	-0.354759
+-0.306325	{ Identifier } Identifier String import {	-0.354759
+-0.394450	{ const Identifier = Identifier ( Identifier	-0.128284
+-0.115318	{ const { Identifier : [ Identifier	-0.128284
+-0.152459	{ if ( Identifier && Identifier )	-0.128284
+-0.241474	{ if ( Identifier ) { Identifier	-0.075086
+-0.628468	{ if ( Identifier . Identifier ===	-0.128284
+-0.066169	{ return Identifier } else { Identifier	-0.128284
+-0.453526	} ) const Identifier = Identifier (	-0.128284
+-0.204522	} ) } , Numeric ) Identifier	-0.128284
+-0.467025	} ) } } ) } ,	-0.128284
+-0.165790	} ) } } , Numeric )	-0.128284
+-0.016777	} , Numeric ) Identifier . Identifier	-0.354759
+-0.646756	} = Identifier . Identifier ( String	-0.200025
+-0.139543	} = Identifier const Identifier = Identifier	-0.128284
+-0.187653	} = Identifier if ( Identifier )	-0.128284
+-0.227218	} Identifier String export default Identifier (	-0.128284
+-0.195542	} Identifier String import Identifier Identifier String	-0.354759
+-0.164065	} Identifier String import { Identifier }	-0.354759
+-0.115318	} const { Identifier : [ Identifier	-0.128284
+-0.194372	} else { Identifier . Identifier (	-0.128284
+-0.576019	} if ( Identifier . Identifier .	-0.128284
+-0.048325	} return Identifier } ) const Identifier	-0.128284
+-0.165790	} } ) } , Numeric )	-0.128284
+-0.194768	} } ) } } ) }	-0.128284
+-0.207503	} } , Numeric ) Identifier .	-0.128284
+-0.201213	} } return Identifier } ) const	-0.128284
+
+\8-grams:
+-0.303749	<s> import { Identifier } Identifier String import
+-0.143296	&& Identifier ) { Identifier . Identifier (
+-0.076635	( ( ) => Identifier ( Identifier )
+-0.028158	( ( Identifier ) => { if (
+-0.114271	( ( [ Identifier , Identifier ] )
+-0.099371	( ) ) { const Identifier = Identifier
+-0.149092	( ) => Identifier ( Identifier ) )
+-0.102475	( Identifier && Identifier ) { Identifier .
+-0.098672	( Identifier ) ) export default Identifier import
+-0.020229	( Identifier ) => { if ( Identifier
+-0.603852	( Identifier ) Identifier . Identifier ( (
+-0.420994	( Identifier ) Identifier . Identifier ( Identifier
+-0.166002	( Identifier ) { Identifier . Identifier (
+-0.197115	( Identifier ) { return Identifier } else
+-0.207285	( Identifier ) } const { Identifier :
+-0.198164	( Identifier ) } if ( Identifier .
+-0.211146	( Identifier ) } } ) } }
+-0.176271	( Identifier , Identifier ) => { if
+-0.015714	( Identifier , Identifier ) const Identifier =
+-0.159489	( Identifier , Identifier , ( Identifier ,
+-0.100162	( Identifier , Identifier , Identifier ( Identifier
+-0.219907	( Identifier , Identifier , Identifier ) =>
+-0.328198	( Identifier . Identifier ( String ) ,
+-0.134469	( Identifier . Identifier ) } ) }
+-0.145920	( Identifier . Identifier , String ) Identifier
+-0.304941	( Identifier . Identifier . Identifier ( )
+-0.153777	( Identifier . Identifier === String ) {
+-0.137157	( Numeric ) Template Identifier . Identifier (
+-0.099371	( Numeric ) Template const Identifier = Identifier
+-0.138000	( String ) , String ) Identifier (
+-0.342144	( String ) const Identifier = Identifier (
+-0.226472	( String ) const { Identifier } =
+-0.099755	( Template Identifier . Identifier Template Identifier .
+-0.088052	( Template Identifier Template ) return Identifier .
+-0.159489	( Template Identifier Template , ( Identifier ,
+-0.641535	( Template Identifier Template Identifier Template ) if
+-0.648963	( Template Identifier Template Identifier Template ) throw
+-0.610514	( Template Identifier Template Identifier Template ) }
+-0.078238	( [ Identifier , Identifier ] ) =>
+-0.131147	( [ Numeric , Numeric ] ) const
+-0.014350	) ) export default Identifier import { Identifier
+-0.242253	) ) { const Identifier = Identifier (
+-0.208708	) , String ) Identifier ( Identifier ,
+-0.083188	) => Identifier ( Identifier ) ) export
+-0.261587	) => { Identifier . Identifier ( Identifier
+-0.055870	) => { if ( Identifier && Identifier
+-0.286356	) => { if ( Identifier ) {
+-0.011985	) => { if ( Identifier . Identifier
+-0.216241	) Identifier ( Identifier , Identifier , Identifier
+-0.103131	) Identifier ( Template Identifier Template , (
+-0.078238	) Identifier . Identifier ( ( ) =>
+-0.340851	) Identifier . Identifier ( Identifier ) Identifier
+-0.011985	) Identifier . Identifier ( Identifier . Identifier
+-0.093610	) Template Identifier . Identifier ( Numeric )
+-0.255039	) Template const Identifier = Identifier ( Identifier
+-0.100384	) const Identifier = Identifier ( ( [
+-0.071288	) const Identifier = Identifier ( String )
+-0.131236	) const Identifier = Identifier ( [ Numeric
+-0.028538	) const Identifier = RegularExpression const Identifier =
+-0.006585	) const Identifier = Template Identifier . Identifier
+-0.222776	) const { Identifier } = Identifier .
+-0.064998	) export default Identifier import { Identifier }
+-0.027037	) if ( Identifier ) { return Identifier
+-0.281012	) return Identifier . Identifier ( Identifier )
+-0.268993	) throw new Identifier ( Template Identifier Template
+-0.348666	) { Identifier . Identifier ( Identifier ,
+-0.055276	) { Identifier . Identifier ( Template Identifier
+-0.255039	) { const Identifier = Identifier ( Identifier
+-0.082788	) { const { Identifier : [ Identifier
+-0.048263	) { return Identifier } else { Identifier
+-0.117005	) } ) } } , Numeric )
+-0.012424	) } , Numeric ) Identifier . Identifier
+-0.082788	) } const { Identifier : [ Identifier
+-0.343601	) } if ( Identifier . Identifier .
+-0.117005	) } } ) } , Numeric )
+-0.136063	) } } ) } } ) }
+-0.144300	) } } , Numeric ) Identifier .
+-0.140242	) } } return Identifier } ) const
+-0.131879	, ( Identifier , Identifier ) => {
+-0.304045	, ( Identifier , Identifier , Identifier )
+-0.193549	, Identifier ( Identifier ) => { if
+-0.020229	, Identifier ) => { if ( Identifier
+-0.055617	, Identifier ) const Identifier = Template Identifier
+-0.271198	, Identifier , ( Identifier , Identifier )
+-0.269914	, Identifier , Identifier ( Identifier ) =>
+-0.176271	, Identifier , Identifier ) => { if
+-0.101322	, Identifier ] ) => { Identifier .
+-0.023729	, Identifier ] ) => { if (
+-0.052199	, Identifier ] } = Identifier const Identifier
+-0.603852	, Numeric ) Identifier . Identifier ( (
+-0.420994	, Numeric ) Identifier . Identifier ( Identifier
+-0.292029	, Numeric ] ) const Identifier = RegularExpression
+-0.091184	, String ) Identifier ( Identifier , Identifier
+-0.268993	, String ) Identifier ( Template Identifier Template
+-0.055934	. Identifier ( ( ) => Identifier (
+-0.103956	. Identifier ( ) ) { const Identifier
+-0.013407	. Identifier ( Identifier ) Identifier . Identifier
+-0.080321	. Identifier ( Identifier ) } const {
+-0.023485	. Identifier ( Identifier ) } if (
+-0.163012	. Identifier ( Identifier ) } } )
+-0.278492	. Identifier ( Identifier , Identifier ) const
+-0.305074	. Identifier ( Identifier , Identifier , (
+-0.157709	. Identifier ( Identifier . Identifier ) }
+-0.073902	. Identifier ( Numeric ) Template Identifier .
+-0.052199	. Identifier ( Numeric ) Template const Identifier
+-0.076172	. Identifier ( String ) , String )
+-0.009696	. Identifier ( String ) const Identifier =
+-0.020640	. Identifier ( String ) const { Identifier
+-0.285852	. Identifier ( Template Identifier . Identifier Template
+-0.138671	. Identifier ( Template Identifier Template ) return
+-0.111551	. Identifier ( Template Identifier Template Identifier Template
+-0.238716	. Identifier ) } ) } } ,
+-0.264306	. Identifier , String ) Identifier ( Template
+-0.138315	. Identifier . Identifier ( ) ) {
+-0.135770	. Identifier === String ) { const {
+-0.012417	. Identifier Template ) return Identifier . Identifier
+-0.258352	. Identifier Template Identifier . Identifier Template )
+-0.114065	: [ Identifier , Identifier ] } =
+-0.297502	: [ Identifier ] } = Identifier if
+-0.193549	= ( ( Identifier ) => { if
+-0.051246	= Identifier ( ( [ Identifier , Identifier
+-0.300512	= Identifier ( Identifier . Identifier ( String
+-0.157782	= Identifier ( Identifier . Identifier , String
+-0.016460	= Identifier ( String ) const Identifier =
+-0.137786	= Identifier ( [ Numeric , Numeric ]
+-0.165190	= Identifier . Identifier ( String ) const
+-0.352651	= Identifier . Identifier ( Template Identifier Template
+-0.013407	= Identifier const Identifier = Identifier . Identifier
+-0.126753	= Identifier if ( Identifier ) Identifier .
+-0.115857	= RegularExpression const Identifier = ( ( Identifier
+-0.093610	= Template Identifier . Identifier ( Numeric )
+-0.207285	=== String ) { const { Identifier :
+-0.039904	=> Identifier ( Identifier ) ) export default
+-0.348666	=> { Identifier . Identifier ( Identifier ,
+-0.108092	=> { if ( Identifier && Identifier )
+-0.193001	=> { if ( Identifier ) { Identifier
+-0.365685	=> { if ( Identifier . Identifier ===
+-0.009943	Identifier && Identifier ) { Identifier . Identifier
+-0.056640	Identifier ( ( ) => Identifier ( Identifier
+-0.117746	Identifier ( ( [ Identifier , Identifier ]
+-0.028538	Identifier ( ) ) { const Identifier =
+-0.034420	Identifier ( Identifier ) ) export default Identifier
+-0.028158	Identifier ( Identifier ) => { if (
+-0.111671	Identifier ( Identifier ) Identifier . Identifier (
+-0.018210	Identifier ( Identifier ) } const { Identifier
+-0.029157	Identifier ( Identifier ) } if ( Identifier
+-0.136063	Identifier ( Identifier ) } } ) }
+-0.035445	Identifier ( Identifier , Identifier ) const Identifier
+-0.084518	Identifier ( Identifier , Identifier , ( Identifier
+-0.306362	Identifier ( Identifier , Identifier , Identifier (
+-0.081329	Identifier ( Identifier . Identifier ( String )
+-0.198842	Identifier ( Identifier . Identifier ) } )
+-0.076172	Identifier ( Identifier . Identifier , String )
+-0.006585	Identifier ( Numeric ) Template Identifier . Identifier
+-0.028538	Identifier ( Numeric ) Template const Identifier =
+-0.145920	Identifier ( String ) , String ) Identifier
+-0.152498	Identifier ( String ) const Identifier = Identifier
+-0.229467	Identifier ( String ) const { Identifier }
+-0.178948	Identifier ( Template Identifier . Identifier Template Identifier
+-0.016010	Identifier ( Template Identifier Template ) return Identifier
+-0.084518	Identifier ( Template Identifier Template , ( Identifier
+-0.211070	Identifier ( Template Identifier Template Identifier Template )
+-0.080187	Identifier ( [ Numeric , Numeric ] )
+-0.030042	Identifier ) ) export default Identifier import {
+-0.364068	Identifier ) => { if ( Identifier )
+-0.582088	Identifier ) => { if ( Identifier .
+-0.190141	Identifier ) Identifier . Identifier ( ( )
+-0.352009	Identifier ) Identifier . Identifier ( Identifier .
+-0.073902	Identifier ) const Identifier = Template Identifier .
+-0.468577	Identifier ) { Identifier . Identifier ( Identifier
+-0.526893	Identifier ) { Identifier . Identifier ( Template
+-0.065691	Identifier ) { return Identifier } else {
+-0.112519	Identifier ) } ) } } , Numeric
+-0.069516	Identifier ) } const { Identifier : [
+-0.011985	Identifier ) } if ( Identifier . Identifier
+-0.200229	Identifier ) } } ) } } )
+-0.258687	Identifier , ( Identifier , Identifier ) =>
+-0.116050	Identifier , Identifier ( Identifier ) => {
+-0.015747	Identifier , Identifier ) => { if (
+-0.288760	Identifier , Identifier ) const Identifier = Template
+-0.091184	Identifier , Identifier , ( Identifier , Identifier
+-0.138166	Identifier , Identifier , Identifier ( Identifier )
+-0.131879	Identifier , Identifier , Identifier ) => {
+-0.298517	Identifier , Identifier ] ) => { Identifier
+-0.389020	Identifier , Identifier ] ) => { if
+-0.294995	Identifier , Identifier ] } = Identifier const
+-0.040745	Identifier , String ) Identifier ( Template Identifier
+-0.065238	Identifier . Identifier ( ( ) => Identifier
+-0.147192	Identifier . Identifier ( ) ) { const
+-0.126753	Identifier . Identifier ( Identifier ) Identifier .
+-0.624327	Identifier . Identifier ( Identifier ) } const
+-0.630691	Identifier . Identifier ( Identifier ) } if
+-0.502816	Identifier . Identifier ( Identifier ) } }
+-0.440349	Identifier . Identifier ( Identifier , Identifier )
+-0.488363	Identifier . Identifier ( Identifier , Identifier ,
+-0.367889	Identifier . Identifier ( Identifier . Identifier )
+-0.297526	Identifier . Identifier ( Numeric ) Template Identifier
+-0.400483	Identifier . Identifier ( Numeric ) Template const
+-0.104034	Identifier . Identifier ( String ) , String
+-0.184450	Identifier . Identifier ( String ) const Identifier
+-0.482890	Identifier . Identifier ( String ) const {
+-0.006585	Identifier . Identifier ( Template Identifier . Identifier
+-0.387427	Identifier . Identifier ( Template Identifier Template )
+-0.338797	Identifier . Identifier ( Template Identifier Template Identifier
+-0.140935	Identifier . Identifier ) } ) } }
+-0.138000	Identifier . Identifier , String ) Identifier (
+-0.144133	Identifier . Identifier . Identifier ( ) )
+-0.147192	Identifier . Identifier === String ) { const
+-0.160606	Identifier . Identifier Template ) return Identifier .
+-0.285852	Identifier . Identifier Template Identifier . Identifier Template
+-0.227417	Identifier : [ Identifier , Identifier ] }
+-0.093507	Identifier : [ Identifier ] } = Identifier
+-0.116050	Identifier = ( ( Identifier ) => {
+-0.074799	Identifier = Identifier ( ( [ Identifier ,
+-0.338772	Identifier = Identifier ( Identifier . Identifier (
+-0.587159	Identifier = Identifier ( Identifier . Identifier ,
+-0.115513	Identifier = Identifier ( String ) const Identifier
+-0.104939	Identifier = Identifier ( [ Numeric , Numeric
+-0.085516	Identifier = Identifier . Identifier ( String )
+-0.046253	Identifier = Identifier . Identifier ( Template Identifier
+-0.111351	Identifier = RegularExpression const Identifier = ( (
+-0.372895	Identifier = Template Identifier . Identifier ( Numeric
+-0.018210	Identifier === String ) { const { Identifier
+-0.202809	Identifier Identifier String const Identifier = Identifier .
+-0.193485	Identifier Identifier String const { Identifier } =
+-0.260865	Identifier Identifier String import Identifier Identifier String const
+-0.559789	Identifier Identifier String import Identifier Identifier String import
+-0.013407	Identifier String const Identifier = Identifier . Identifier
+-0.105873	Identifier String const { Identifier } = Identifier
+-0.088985	Identifier String export default Identifier ( Numeric )
+-0.291577	Identifier String import Identifier Identifier String const Identifier
+-0.341605	Identifier String import Identifier Identifier String const {
+-0.172045	Identifier String import Identifier Identifier String import Identifier
+-0.079908	Identifier String import { Identifier } Identifier String
+-0.241963	Identifier Template ) if ( Identifier ) {
+-0.120575	Identifier Template ) return Identifier . Identifier (
+-0.154422	Identifier Template ) throw new Identifier ( Template
+-0.144590	Identifier Template ) } } return Identifier }
+-0.289829	Identifier Template , ( Identifier , Identifier ,
+-0.204687	Identifier Template Identifier . Identifier Template ) return
+-0.029157	Identifier Template Identifier Template ) if ( Identifier
+-0.055870	Identifier Template Identifier Template ) throw new Identifier
+-0.205498	Identifier Template Identifier Template ) } } return
+-0.008802	Identifier ] ) => { Identifier . Identifier
+-0.033039	Identifier ] ) => { if ( Identifier
+-0.028538	Identifier ] } = Identifier const Identifier =
+-0.029157	Identifier ] } = Identifier if ( Identifier
+-0.111671	Identifier const Identifier = Identifier . Identifier (
+-0.013407	Identifier if ( Identifier ) Identifier . Identifier
+-0.434568	Identifier import { Identifier } Identifier String export
+-0.432971	Identifier import { Identifier } Identifier String import
+-0.285933	Identifier } ) const Identifier = Identifier (
+-0.291253	Identifier } = Identifier . Identifier ( String
+-0.156882	Identifier } Identifier String export default Identifier (
+-0.075810	Identifier } Identifier String import Identifier Identifier String
+-0.064998	Identifier } Identifier String import { Identifier }
+-0.135805	Identifier } else { Identifier . Identifier (
+-0.190141	Numeric ) Identifier . Identifier ( ( )
+-0.269080	Numeric ) Identifier . Identifier ( Identifier )
+-0.372895	Numeric ) Template Identifier . Identifier ( Numeric
+-0.242253	Numeric ) Template const Identifier = Identifier (
+-0.015714	Numeric , Numeric ] ) const Identifier =
+-0.064039	Numeric ] ) const Identifier = RegularExpression const
+-0.121147	RegularExpression const Identifier = ( ( Identifier )
+-0.195604	String ) , String ) Identifier ( Identifier
+-0.307125	String ) Identifier ( Identifier , Identifier ,
+-0.326105	String ) Identifier ( Template Identifier Template ,
+-0.664295	String ) const Identifier = Identifier ( (
+-0.688307	String ) const Identifier = Identifier ( String
+-0.691653	String ) const Identifier = Identifier ( [
+-0.121784	String ) const { Identifier } = Identifier
+-0.069516	String ) { const { Identifier : [
+-0.111671	String const Identifier = Identifier . Identifier (
+-0.190452	String const { Identifier } = Identifier .
+-0.234128	String export default Identifier ( Numeric ) </s>
+-0.028538	String import Identifier Identifier String const Identifier =
+-0.018210	String import Identifier Identifier String const { Identifier
+-0.131928	String import Identifier Identifier String import Identifier Identifier
+-0.154080	String import { Identifier } Identifier String import
+-0.285441	Template ) if ( Identifier ) { return
+-0.250063	Template ) return Identifier . Identifier ( Identifier
+-0.040745	Template ) throw new Identifier ( Template Identifier
+-0.168357	Template ) } } return Identifier } )
+-0.188333	Template , ( Identifier , Identifier , Identifier
+-0.122105	Template Identifier . Identifier ( Numeric ) Template
+-0.027319	Template Identifier . Identifier Template ) return Identifier
+-0.006585	Template Identifier . Identifier Template Identifier . Identifier
+-0.131424	Template Identifier Template ) if ( Identifier )
+-0.007328	Template Identifier Template ) return Identifier . Identifier
+-0.098848	Template Identifier Template ) throw new Identifier (
+-0.027037	Template Identifier Template ) } } return Identifier
+-0.091184	Template Identifier Template , ( Identifier , Identifier
+-0.023485	Template Identifier Template Identifier Template ) if (
+-0.069498	Template Identifier Template Identifier Template ) throw new
+-0.121783	Template Identifier Template Identifier Template ) } }
+-0.212686	Template const Identifier = Identifier ( Identifier .
+-0.064359	[ Identifier , Identifier ] ) => {
+-0.093507	[ Identifier , Identifier ] } = Identifier
+-0.023485	[ Identifier ] } = Identifier if (
+-0.035445	[ Numeric , Numeric ] ) const Identifier
+-0.135805	] ) => { Identifier . Identifier (
+-0.415209	] ) => { if ( Identifier &&
+-0.052199	] ) const Identifier = RegularExpression const Identifier
+-0.099371	] } = Identifier const Identifier = Identifier
+-0.131424	] } = Identifier if ( Identifier )
+-0.206368	const Identifier = ( ( Identifier ) =>
+-0.056274	const Identifier = Identifier ( ( [ Identifier
+-0.007075	const Identifier = Identifier ( Identifier . Identifier
+-0.203911	const Identifier = Identifier ( String ) const
+-0.105091	const Identifier = Identifier ( [ Numeric ,
+-0.592773	const Identifier = Identifier . Identifier ( String
+-0.515844	const Identifier = Identifier . Identifier ( Template
+-0.221993	const Identifier = RegularExpression const Identifier = (
+-0.137157	const Identifier = Template Identifier . Identifier (
+-0.090171	const { Identifier : [ Identifier , Identifier
+-0.125512	const { Identifier : [ Identifier ] }
+-0.010036	const { Identifier } = Identifier . Identifier
+-0.079908	default Identifier import { Identifier } Identifier String
+-0.048533	else { Identifier . Identifier ( Template Identifier
+-0.126858	export default Identifier import { Identifier } Identifier
+-0.102109	if ( Identifier && Identifier ) { Identifier
+-0.111671	if ( Identifier ) Identifier . Identifier (
+-0.011256	if ( Identifier ) { Identifier . Identifier
+-0.144590	if ( Identifier ) { return Identifier }
+-0.104841	if ( Identifier . Identifier . Identifier (
+-0.071244	if ( Identifier . Identifier === String )
+-0.099371	import Identifier Identifier String const Identifier = Identifier
+-0.195940	import Identifier Identifier String const { Identifier }
+-0.157998	import Identifier Identifier String import Identifier Identifier String
+-0.069498	import { Identifier } Identifier String export default
+-0.336194	import { Identifier } Identifier String import Identifier
+-0.303362	import { Identifier } Identifier String import {
+-0.208713	new Identifier ( Template Identifier Template Identifier Template
+-0.441390	return Identifier . Identifier ( Identifier ) }
+-0.131930	return Identifier } ) const Identifier = Identifier
+-0.008802	return Identifier } else { Identifier . Identifier
+-0.223251	throw new Identifier ( Template Identifier Template Identifier
+-0.051795	{ Identifier . Identifier ( Identifier , Identifier
+-0.292389	{ Identifier . Identifier ( Template Identifier .
+-0.487202	{ Identifier . Identifier ( Template Identifier Template
+-0.221870	{ Identifier : [ Identifier , Identifier ]
+-0.114065	{ Identifier : [ Identifier ] } =
+-0.088126	{ Identifier } = Identifier . Identifier (
+-0.059660	{ Identifier } Identifier String export default Identifier
+-0.064286	{ Identifier } Identifier String import Identifier Identifier
+-0.014350	{ Identifier } Identifier String import { Identifier
+-0.212686	{ const Identifier = Identifier ( Identifier .
+-0.270438	{ const { Identifier : [ Identifier ,
+-0.157006	{ if ( Identifier && Identifier ) {
+-0.117803	{ if ( Identifier ) { Identifier .
+-0.066520	{ if ( Identifier . Identifier === String
+-0.101322	{ return Identifier } else { Identifier .
+-0.412147	} ) const Identifier = Identifier ( (
+-0.144300	} ) } , Numeric ) Identifier .
+-0.112519	} ) } } ) } , Numeric
+-0.142380	} ) } } , Numeric ) Identifier
+-0.059787	} , Numeric ) Identifier . Identifier (
+-0.071357	} = Identifier . Identifier ( String )
+-0.202809	} = Identifier const Identifier = Identifier .
+-0.253396	} = Identifier if ( Identifier ) Identifier
+-0.174472	} Identifier String export default Identifier ( Numeric
+-0.146829	} Identifier String import Identifier Identifier String import
+-0.126858	} Identifier String import { Identifier } Identifier
+-0.306512	} const { Identifier : [ Identifier ]
+-0.338763	} else { Identifier . Identifier ( Template
+-0.011856	} if ( Identifier . Identifier . Identifier
+-0.015714	} return Identifier } ) const Identifier =
+-0.142380	} } ) } , Numeric ) Identifier
+-0.292710	} } ) } } ) } ,
+-0.012424	} } , Numeric ) Identifier . Identifier
+-0.035445	} } return Identifier } ) const Identifier
+
+\end\

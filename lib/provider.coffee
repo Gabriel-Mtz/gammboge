@@ -1,5 +1,6 @@
 fs = require 'fs'
 path = require 'path'
+esprima = require 'esprima'
 
 #trailingWhitespace = /\s$/
 attributePattern = /\s+([a-zA-Z][-a-zA-Z]*)\s*=\s*$/
@@ -8,8 +9,8 @@ maxOrder = 8
 maxGuesses = 7
 
 module.exports =
-  selector: '*'
-  disableForSelector: '.text.html .comment'
+  selector: '.source.js'
+  disableForSelector: '.comment'
   #filterSuggestions: true
 
   getSuggestions: ({editor, bufferPosition}) ->
@@ -68,8 +69,12 @@ module.exports =
     if seamonkey #lets get rid of innecesary whitespace
       live_prefix = rawPrefix.replace(/\s+$/g,"") #there should not be any at the end
     else #we need to split the last word which may not be complete
-      current = live_prefix.substring( live_prefix.lastIndexOf(" ") + 1 )
+      #current = live_prefix.substring( live_prefix.lastIndexOf(" ") + 1 )
       live_prefix = live_prefix.substring( 0, live_prefix.lastIndexOf(" ") )
+
+    #SourceCode predictions
+    current = tokenizeJS(current)
+    live_prefix = tokenizeJS(live_prefix)
 
     mostLikely = liveGuess(live_prefix, current)
     #console.log "iniciales"
@@ -204,7 +209,10 @@ sortProperties = (obj, property,isNumericSort, ascending) ->
       if x < y then -1 else if x > y then 1 else 0
   sortable
 
-"""Live Guess takes care of determining the most posible suggestions"""
+"""
+Live Guess takes care of determining the most posible suggestions
+Parameters should be tokenized beforehand
+"""
 liveGuess= (sentence, word)->
   candidates = {}
   fullCandidates = {}
@@ -222,15 +230,19 @@ liveGuess= (sentence, word)->
     liveGuess(sentence.substr(sentence.indexOf(" ") + 1))
   else
     for k of dictionary[getOrderCategory(sentenceOrder)]
-      if k.startsWith(sentence + " " + word)
+      #if k.startsWith(sentence + " " + word)
+      if k.startsWith(sentence)
         #candidates[k.substr(sentence.length + 1)] = dictionary[getOrderCategory(sentenceOrder)][k]
         candidates[k.substring( k.lastIndexOf(" ") + 1 )] = dictionary[getOrderCategory(sentenceOrder)][k]
         fullCandidates[k] = dictionary[getOrderCategory(sentenceOrder)][k]
-      if candidates.length < maxGuesses
-        if (sentenceOrder == 2)
+      """
+      if (sentenceOrder == 2)
+        return
+      if (candidates.length < maxGuesses)
           return
         console.log "Let's fill a few more"
         liveGuess(sentence.substr(sentence.indexOf(" ") + 1))
+      """
 
   #console.log "candidatillos"
   #console.log candidates
@@ -243,5 +255,41 @@ liveGuess= (sentence, word)->
   fullCandidates = fullCandidates.slice(0,maxGuesses)
   #console.log "show these"
   #console.log candidates
+
+  console.log "I finished?"
+
+  console.log "returnus"
+  console.log candidates
+
+  console.log "full ngram"
   console.log fullCandidates
   return candidates
+
+tokenizeJS= (original)->
+  rawTokenized = esprima.tokenize(original)
+  #rawTokenized = esprima.tokenize("    for (var i = 1; i <= totalNumberofRows; i++) {")
+  #console.log "tokens tokens"
+  #console.log rawTokenized
+  cleverTokens = []
+  i = 0
+  while i < rawTokenized.length
+    if (rawTokenized[i]['type'] == 'Boolean') | (rawTokenized[i]['type'] == 'Keyword') | (rawTokenized[i]['type'] == 'Punctuator')
+      #console.log "value"
+      cleverTokens.push(rawTokenized[i]['value'])
+    else # Identifier Numeric String RegularExpression
+        #there's plenty of relevant system Identifiers such as console log
+        #there's some relevant user Identifiers such as i
+        #there's a few relevant Numeric values such as 0 or 1
+      cleverTokens.push(rawTokenized[i]['type'])
+    i++
+  #console.log "obj"
+  #console.log cleverTokens
+  cleverTokens = JSON.stringify(cleverTokens)
+  #cleverTokens = JSON.stringify(rawTokenized)
+  #console.log cleverTokens
+  regexp = /","/gm
+  #cleverTokens = cleverTokens.replace( regexp, "\" \"")
+  cleverTokens = cleverTokens.replace( regexp, " ")
+  regexp = /(^\["|"]$)/gm
+  cleverTokens = cleverTokens.replace( regexp, "")
+  return cleverTokens

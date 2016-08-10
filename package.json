@@ -1,10 +1,10 @@
 {
-  "name": "gammboge-reborn",
-  "version": "0.7.2",
-  "description": "HTML element and attribute autocompletions",
+  "name": "gammboge",
+  "version": "0.0.0",
+  "description": "JavaScript autocompletion and suggestion",
   "main": "./lib/main",
   "license": "MIT",
-  "repository": "https://github.com/atom/autocomplete-html",
+  "repository": "https://bitbucket.org/gabommartinez/autocomplete-gamboge",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
